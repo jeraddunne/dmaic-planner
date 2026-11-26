@@ -582,8 +582,8 @@ requests, branches and `git log` refer to the private course repository.
   route definitions with `all-MiniLM-L6-v2` and picks the closest definition, with no training
   labels. Our C1 reproduces it (same public score, 0.20000; 17 of 20 test predictions identical
   to her file), and the deployed C2 builds on it twice: the route definitions are extra training
-  examples, and definition similarity is a quarter of every prediction. Her code:
-  <https://colab.research.google.com/drive/1R8eSiphq_bwPXHY-pVbWY_fQEAs77c1x>.
+  examples, and definition similarity is a quarter of every prediction. Her code link is in her Phase 2b form
+  response, shared with the course.
 - **The other competition participants:** Belhassen Khefacha (two runs: BERT and
   all-mpnet-base-v2 embeddings with an MLP), Aymen Masmoudi (MiniLM embeddings with an MLP),
   Abdulhakim YM Abayu (word and character TF-IDF with a linear SVM and route keyword cues, plus a

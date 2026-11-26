@@ -201,7 +201,7 @@ be 0.200), because the chosen regularisation (C = 0.1) is strong. See
 ## Credit
 
 - Hina Kramer: the definitions-only MiniLM approach that C1 reproduces and C2 builds on
-  (code: https://colab.research.google.com/drive/1R8eSiphq_bwPXHY-pVbWY_fQEAs77c1x).
+  (her code link is in her Phase 2b form response, shared with the course).
 - The other participants' runs are on the leaderboard with their own descriptions; their code
   links are in the Phase 2b form responses, kept in the private course repository.
 - Encoder: `sentence-transformers/all-MiniLM-L6-v2` (Apache 2.0) through the

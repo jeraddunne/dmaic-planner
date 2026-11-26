@@ -85,8 +85,8 @@ Use it as a second opinion that a person checks, not as the decision.
   C1 reproduces her run (public score 0.20000, the same as hers; 17 of 20 test predictions
   identical to her submitted file; Step 1 memo). C2 uses her idea in two places: the route
   definitions are extra training points for the classifier, and the definition-similarity scores
-  make up a quarter of every prediction. Her code:
-  <https://colab.research.google.com/drive/1R8eSiphq_bwPXHY-pVbWY_fQEAs77c1x> (Step 1 memo).
+  make up a quarter of every prediction. Her code link is in her Phase 2b form
+  response, shared with the course.
 - **Model type:** five-class text classifier. A frozen sentence encoder produces a 384-number
   vector per narrative; a multinomial logistic regression head and a nearest-definition score are
   blended into five probabilities. The encoder was not fine-tuned.
