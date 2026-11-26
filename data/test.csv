@@ -1,0 +1,214 @@
+id,text,label,Usage,decided_by,n_labels,source,source_url,attribution,license,storage_mode
+dmaic_008,"A nurse collecting an anxious patient for ambulatory surgery picked up the wrong bedside chart, then confirmed identity by stating the name and details herself instead of asking open-ended questions or checking the wristband; the overwhelmed patient simply agreed with everything. The wrong patient was walked to the operating room and placed on the table before the misidentification was caught, and she was returned to the waiting area unharmed.",JUST_DO_IT,Private,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/check-wristband,"Team paraphrase of the AHRQ PSNet WebM&M case ""Check the Wristband"" (2003)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_010,"I am filing a complaint against Cash App (Block, Inc.) Due to inadequate customer service and unfair practices, which violate the Consumer Financial Protection Act (CFPA). Specifically Cash App failed to take timely and effective measures to prevent and address fraud on their platform, leaving my account vulnerable and unprotected. Furthermore, their dispute resolution process was unfair and deceptive, as they did not comply with error resolution requirements under the Electronic Fund Transfer Act (EFTA) and Regulation E. These actions have caused significant inconvenience and financial loss, and I seek appropriate redress for these violations.",NOT_CPI,Private,majority,9,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/11658881,"CFPB Consumer Complaint Database, complaint 11658881",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_016,"A phlebotomist mislabeled a preoperative patient's blood vials with another patient's label; the required nurse or physician identity check could not be done at shift change, so a random nurse at the station initialed the label without ever seeing the patient. A laboratory technologist caught the near miss only because a hemoglobin value changed implausibly; all the samples, including the type-and-cross, had been mislabeled.",DMAIC,Public,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/right-patient-wrong-sample,"Team paraphrase of the AHRQ PSNet WebM&M case ""Right Patient, Wrong Sample"" (2006)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_019,"I am filing this complaint against Receivables Management Systems (RMS) for attempting to collect a debt allegedly owed to [redacted]. 
+
+I recently received communication from RMS claiming I owe a debt to [redacted]. However, I do not recall owing any balance, and I was never properly notified or billed by [redacted] regarding any past-due account before it was turned over to a third-party collector. 
+
+This debt appeared without warning and is now being used against me through credit reporting and collection efforts, causing damage to my credit score and emotional distress. RMS is contacting me and reporting this account without having first sent me proper validation or breakdown of the charges, in violation of the Fair Debt Collection Practices Act (FDCPA), 15 U.S. Code 1692g. 
+
+Furthermore, under FCRA 1681b, RMS must have a permissible purpose to access or report my credit information. I never authorized [redacted] or RMS to share or report my personal information to the credit bureaus, and I never received any documentation that would prove I consented to this. 
+
+To date, I have not received: A full accounting of the debt A copy of any signed agreement Any notice of cancellation, refund status, or balance due directly from [redacted] If RMS claims to have this information, I am demanding that they produce it. If they can not, they are in violation of FDCPA 1692e (false or misleading representation) and 1692f (unfair collection practices).",JUST_DO_IT,Public,single annotator,1,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/14854781,"CFPB Consumer Complaint Database, complaint 14854781",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_020,"A patient nearly died when a traveling nurse misread a color-coded wristband and applied a 'do not resuscitate' designation, believing it meant something else. A Patient Safety Authority analyst reviewing the report found that wristband color meanings varied across Pennsylvania hospitals and, on further checking, across the country, making a repeat event likely.",DMAIC,Private,single annotator,1,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Standardizing-Patient-Wristband-Colors-Story.aspx?ctg=Communication,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_022,"Accurate way to calculate the impact of X hours of meetings a day on an individual's ""deep thinking"" time available?
+
+I'm concerned about my team's ability to find and protect their time for deep thinking/working. Much of what they are being asked to produce requires deep thinking, research, and writing time. Things that can't be done in 15 minutes.
+One thing they brought up to me was that the number of meetings on their calendar was out of control and this was impacting their ability to carve out time to think and get their work done.
+So I looked at everyone's calendar. At a minimum, I see that most of us on the team have 2 hours of meetings daily, with some days being closer to 6 hours. Update - the meetings aren't in a single block of time, they are scattered throughout the day.
+So I did some math and made some assumptions (yes, I need eyes and brains to check me on it):
+
+If we assume between 10-30 minutes of prep time happens before a meeting (or just not doing highly focused work because you know you can’t get into anything heavy)
+
+If we assume 30 minutes post-meeting to reorient yourself (using the data point that it takes 23 minutes to get refocused after every interruption and rounding that to 30 minutes)
+
+
+That means that even with just 2 hours of meetings a day, 50% of our 8-hour day is spent in, prepping for, or reorienting ourselves after a meeting.
+
+Not going to lie, I didn’t expect that. I felt it, I kinda knew it, but I didn’t trust the math in my brain.
+Is this an accurate and defensible way to calculate the impact of having X hours of meetings a day on an individual's ""deep thinking"" time available?
+
+For simplicity, assume that this math is for folks who are individual contributors, not people managers. Being a people manager throws a curveball into the math because of the time expected to help/coach/guide direct reports.",DMAIC,Private,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/188382/accurate-way-to-calculate-the-impact-of-x-hours-of-meetings-a-day-on-an-individu,"Question 188382 on workplace.stackexchange.com, asked 2022-11-04, by J007B (https://workplace.stackexchange.com/users/124286/j007b)",CC BY-SA 4.0,verbatim
+dmaic_023,"The Department of Justice (DOJ) awarded $136 million in grants from fiscal years 2019 to 2020 to entities that assist individuals reentering society after serving their prison sentence under the Second Chance Reauthorization Act of 2018. Specifically, DOJ awarded 144 grants to entities such as state and local governments and nonprofit organizations (see figure below). Grantees are to use funds to deliver services (e.g., employment and housing assistance), build local partnerships, and evaluate the effectiveness of their programs.
+
+Second Chance Reauthorization Act of 2018 Grant Awards, by Grantee Type, Fiscal Years 2019 to 2020
+
+DOJ has two approaches to evaluate the effectiveness of the reentry grants on individuals' success at reentering the community and avoiding recidivism. First, DOJ is funding an evaluation designed to provide evidence of the effectiveness of three selected grantees. Second, some grantees are required to evaluate their programs, and others may choose to do so. However, grantees have latitude in some cases to determine the type and focus of their evaluation. Generally, these evaluations are due after the grant period ends, and it is too soon to know what these evaluations will show regarding grant effectiveness, according to DOJ.
+
+Second Chance grantees are generally required to submit performance data to DOJ, and DOJ has published the data it received in congressional budget justifications and grant program fact sheets that GAO reviewed. However, DOJ did not identify limitations of the data or discuss what conclusions could or could not be drawn from the data in these products. DOJ has previously stated that these performance data cannot be used as evidence of the effectiveness of Second Chance grant programs. Taking steps to identify limitations of the data in published documents, consistent with leading practices for transparently reporting performance information, would provide the necessary context for Congress and other readers to appropriately interpret the information and make informed decisions about Second Chance grant programs.",JUST_DO_IT,Private,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-22-104641,"U.S. Government Accountability Office, ""Second Chance Reentry Grants: DOJ Should Report Limitations When Publishing Performance Data"", GAO-22-104641, Apr 6, 2022",Public domain (U.S. Government work),verbatim
+dmaic_031,"How to backseat project manage when meetings are poorly/not facilitated?
+
+Meetings without agendas which are poorly facilitated do NOT fall into the category of  beneficial meetings.
+Unfortunately, a lot of PMs or managers do not have the expertise or skill leading meetings effectively to get work done.
+As an individual contributor (who also happens to be good at facilitating meetings/projects), these mis/not-managed meetings are unbelievably frustrating, especially when it directly concerns your project work and you can't just skip them.
+The problem isn't so much how to conduct effective meetings because I know how. It's the managers who don't.
+My ideal outcome is for these meetings to:
+
+All meetings have clearly defined agendas ahead of time
+All meetings result in action items or next steps
+All meetings are shorter
+Me simply be in charge of all them (I can dream?)
+
+The problem is I am not facilitating these meetings. I am not calling the meetings. And I cannot simply ignore them as I am a key part of the technical implementation. I also have no interest in working more hours to make up for my time being wasted (and will not), but would prefer my time not to be wasted. 
+I have considered simply not going to meetings without agendas and/or requesting agendas every time I receive a meeting invite, but because they are often from manager types, I'm not sure how well this would go over.
+
+What can I do to drive meetings to be better facilitated well when I am an individual contributor and not the PM or a manager?",NOT_CPI,Public,adjudicated,9,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/13290/how-to-backseat-project-manage-when-meetings-are-poorly-not-facilitated,"Question 13290 on workplace.stackexchange.com, asked 2013-07-19, by enderland (https://workplace.stackexchange.com/users/2322/enderland)",CC BY-SA 3.0,verbatim
+dmaic_033,"A hospital received multiple event reports of wrong or expired IV fluids intercepted before reaching patients. Because all plain IV fluids came from a single manufacturer, the bags looked nearly identical, and they were kept in identical blue bins whose labels listed only product numbers. Unlike bedside administration, storeroom stocking had no barcode safeguard to verify the right product went into the right bin.",KAIZEN_EVENT,Private,single annotator,1,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Taking-Stock-of-Fluids-to-Find-the-Right-Solution-Story.aspx?ctg=Medication,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_035,"During a forearm operation, an anesthesia technician handed a resident an unlabeled syringe without the original ampule and insisted it was atropine; under pressure and with the supervisor away, no double-check was performed. The syringe actually contained phenylephrine 10 mg, and the patient's blood pressure spiked dangerously before the returning consultant stabilized him; no lasting harm occurred.",DMAIC,Public,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/if-you-say-so-taking-syringe-face-value-operating-room,"Team paraphrase of the AHRQ PSNet WebM&M case ""If You Say So: Taking a Syringe at Face Value in the Operating Room"" (2019)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_042,"Should I ask my boss not to come to retrospectives?
+
+I am a Scrum Master for a small team (8 devs). I have been having trouble getting engagement from many of the team members, especially the junior team members. My boss missed two retrospectives because he had other meetings and I started making progress. There was more engagement, and one junior team member who had been silent in previous Sprint Retrospectives talked at length about an action item she wanted added.
+Then last Sprint my boss attended the retrospective and the junior devs just shut down. He always asked everybody's opinion but every time he opened his mouth he killed any chance that 7 out of 8 team members would say anything, and the remaining team member would always agree with him. I had been getting good action items from the retrospectives and all the item have had volunteer owners. But in this retro, most of the action items were suggested by my boss and there were no owners for any of the items.
+The trouble is that he still has a foot in the technical side and still completes some of the Sprint items. That means he is not exactly a chicken; he is at least half a pig. I could ask him to stay silent, but I am not sure that would work. There is a chilling effect when he is here. Am I overreacting? Should I just try to build up the confidence of the team, or should I ban my boss from the retrospective? I am not sure how he would take that.",NOT_CPI,Private,adjudicated,9,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/29875/should-i-ask-my-boss-not-to-come-to-retrospectives,"Question 29875 on pm.stackexchange.com, asked 2020-06-21, by ciara dunn (https://pm.stackexchange.com/users/40962/ciara-dunn)",CC BY-SA 4.0,verbatim
+dmaic_045,"Please be informed that 12 [system] [items] were returned on november 28th 2022. Now were are trying to re-present the [items] again, however when the user scan the [items] he got the below error. Kindly do the needful asap. We have deleted the local repository folder and removed the [system] from [system] app but still issue persist. Check details are attached below
+
+Dears, confirmed.
+
+Dears, confirmed.
+
+Dears, any update?
+
+Dears, any update?
+
+Dears, kindly update
+
+Dears, can we try to scan now?
+
+Dears, still same error
+
+Dears, I have attached, error screenshot, log file and image capture report. Fyi, we are uploading from [system]
+
+Dears, still same error. Appreciate your prompt action on the same. I believe this [items] are got stuck in database and you have to delete it from there. Sure. Please share the meeting link.
+
+Dear, we checked the [system] scan monitor, but this sequence is not available there. We searched one of the [item] in [system] query and got attached result.
+
+Greetings could you please tell me how can I access failed transactions list.
+
+Dears, still same error. We have tried after deleting local repository but still same error.
+
+Greetings we tried scanning after following all the steps below. We will try to present the [item] from [system] now and will update you.
+
+Greetings we tried scanning after following all the steps below. We will try to present the [item] from [system] now and will update you.
+
+Greetings we have scanned the below mentioned [item]([item] number: [system]) from [system] and it worked.
+
+Greetings we scanned 1 [item] from remaining [system] [items] and got same error. [item] number: [system] error: duplicate [item] [system]; a [item] with the same [system] fields already exists in the database
+
+Greetings got it. Will try and update you
+
+Greetings currently we dont have any [item] to scan in pds, but we processed several [items] in this week. The below is the last one which we processed successfully. [item] number: [system] posted date: [system]
+
+Dears, please update
+
+Dears, we have scanned the below mentioned [item].
+
+Dears, it worked.:) please do the same for rest of the [items].",KAIZEN_EVENT,Private,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1010324",CC BY 4.0,verbatim
+dmaic_046,"The Department of Veterans Affairs' (VA) Veterans Community Care Program allows eligible veterans to receive medical care from community providers instead of VA facilities. The program has grown rapidly in recent years and accounted for nearly 40 percent of VA's total contract obligations in fiscal year 2023. Contract oversight is complex and responsibility for oversight is spread across multiple areas within the Office of Integrated Veteran Care (IVC). IVC was created in 2022, and it continues to restructure some roles, such as the Contracting Officer's Representatives (COR), who keep contracting officers informed and provide technical direction to contractors.
+
+Community Care Obligations between Fiscal Years 2018 and 2023 (in billions)
+
+IVC has not developed a clear and complete set of documentation to guide contract oversight. IVC has developed guidance—called desk procedures—but this guidance is limited to certain administrative processes and is incomplete. For example, it does not address how contract performance should be assessed when performance data are incomplete or unreliable, hindering CORs from conducting contract oversight.
+
+Further, IVC has eliminated a program manager position identified in the oversight plans for the contracts. While IVC officials identified alternative processes for some program manager functions, officials have not assessed whether they fulfill all functions. Additionally, VA has not updated its plans to reflect its current processes. These gaps increase contract oversight risks.
+
+While IVC and other officials have begun discussing how to address oversight challenges with the current contracts, VA does not have a formal process for documenting lessons learned. VA is already working to establish the next set of contracts. VA risks continued contract oversight challenges if it does not collect, analyze, and validate lessons learned from its contracting efforts.",DMADV,Public,adjudicated,9,GAO Reports,https://www.gao.gov/products/gao-24-106390,"U.S. Government Accountability Office, ""Veterans Community Care Program: VA Needs to Strengthen Contract Oversight"", GAO-24-106390, Aug 21, 2024",Public domain (U.S. Government work),verbatim
+dmaic_048,"Greetings kindly need your assistance for the case.ticket ([system]) business team wants to arrange a meeting with you
+
+Greetings kindly confirm your availability @ 11 am.
+
+Greetings kindly confirm your availability today @ 11 am.
+
+Greetings kindly confirm your availability today @ 11 am.
+
+Greetings as we discussed over call, kindly [system] ordinate with support team [system] confirm us the user role to access the report for the messages [system] and [system].
+
+Greetings as we discussed over call, kindly [system] ordinate with support team [system] confirm us the user role to access the report for the messages [system] and [system].
+
+Greetings kindly let us know the status of the below case.
+
+Greetings kindly let us know the status of the below case.
+
+Greetings kindly let us know your availability today to test the user roles on uat
+
+Greetings we will have call [system] 11:30 am and also let us know what all the support you need from us to test the roles. Only application or server team also you need,
+
+Greetings can I arrange the call tomorrow morning @ 11 am because our server team will be available tomorrow @ 11
+
+Greetings can I arrange the call tomorrow morning @ 11 am because our server team will be available tomorrow @ 11
+
+Greetings kindly join the session now
+
+Greetings kindly join the session now daer [user], okay.kindly let me know before your join or else we can have call tomorrow.
+
+Greetings I am facing some issue while sharing the screen. We will check the issue and will update you.
+
+Greetings I am facing some issue while sharing the screen. We will check the issue and will update you.
+
+Greetings kindly let us know your availability today.
+
+Greetings kindly let us know your availability today to complete the below. Can I share the session @ 1:30 pm
+
+Greetings I have sent the link
+
+Greetings kindly confirm your availability today @ 2:30 or 3 pm to have call with server team.
+
+Greetings kindly confirm your availability today @ 2:30 pm to arraneg the call with our infra team.
+
+Greetings kindly confirm your availability today @ 2:30 pm to arrange the call with our infra team.
+
+Greetings kindly note that we are waiting for business testing update and will let you know.",KAIZEN_EVENT,Public,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1010058",CC BY 4.0,verbatim
+dmaic_049,"A newborn with respiratory depression after maternal opioid exposure was prescribed naloxone, but the syringe had been drawn up with digoxin because both products came from the same manufacturer in nearly identical packaging. The infant developed fatal digoxin toxicity and died about an hour later.",DMADV,Private,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/misread-label,"Team paraphrase of the AHRQ PSNet WebM&M case ""Misread Label"" (2003)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_051,"Eighty-five percent of charter schools nationwide participated in the National School Lunch Program in school year 2022-23, increasing from 64 percent in school year 2018-19, according to Department of Education data. Charter school participation rates varied by states. For instance, 13 states and Puerto Rico had 100 percent participation in school year 2022-23 and five states had less than 50 percent participation. In 2018, the Food and Nutrition Service (FNS) in the U.S. Department of Agriculture (USDA) collected information for its annual child nutrition operations study to better understand charter school participation in the National School Lunch and School Breakfast Programs (school meal programs) that could inform potential reasons for state variation. However, due to study challenges, FNS was not able to use the information and has not tried to explore these issues since. FNS officials said that it would be resource intensive to include enough charter schools in a study to obtain statistically valid findings, but the agency has not recently assessed the feasibility or cost of doing so. Collecting information on charter schools in cost effective ways, such as by leveraging prior efforts, could help FNS better support states and schools.
+
+Charter School Participation Rates in the National School Lunch Program, School Years 2018-19 and 2022-23
+
+Officials from the 14 charter schools in GAO's review that participate in the National School Lunch Program reported facility, vendor, and staffing challenges in operating school meal programs. For example, most school officials said that limited kitchen or eating space makes it difficult to prepare or serve food, as a number operated in non-traditional spaces. Many of those schools contracted with vendors for prepared meals, but also reported challenges with using vendors, such as canceled contracts.
+
+Selected states—which oversee local school meal program operations—and FNS provided assistance that could help charter schools address challenges. Examples of assistance from states included training, funds for facility improvements, and informational resources. Similarly, FNS has provided assistance, such as program guidance in 2018 specifically on charter schools. However, school officials GAO interviewed said they were unaware of some existing resources and would benefit from additional outreach. Specifically, 12 of 14 schools that participated in school meal programs did not know of FNS's 2018 guidance for charter schools, which links to resources and answers questions pertinent to charter schools, although it is available on FNS's website. As more charter schools are participating in school meal programs, taking steps to ensure they receive relevant information through additional outreach could help them address challenges and promote greater access to school meals.",DMAIC,Private,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-25-106846,"U.S. Government Accountability Office, ""School Meal Programs: Additional Data and Outreach Could Help Charter School Participation"", GAO-25-106846, Dec 11, 2024",Public domain (U.S. Government work),verbatim
+dmaic_053,"A key lesson from GAO's prior work is that greater federal leadership could benefit both aviation pandemic
+preparedness
+and disease mitigation
+research
+.
+
+The Department of Transportation (DOT) has not developed a national aviation
+preparedness
+plan for communicable disease outbreaks as GAO recommended in 2015. Such a plan is needed to avoid the piecemeal response seen early in the COVID-19 pandemic. Stakeholders GAO spoke to in 2020 and 2021 said confidence in air travel could have been restored more quickly with greater federal coordination. At GAO's urging, Congress passed legislation in December 2022 requiring DOT to develop the plan.
+In July 2022, GAO reported that federal leadership was needed to advance
+research
+on disease transmission in air travel, including real-world situations and the effectiveness of mitigation efforts. GAO recommended Congress direct the Federal Aviation Administration (FAA) to develop a research strategy, which Congress had not done as of March 2024.
+
+DOT and FAA officials stated in 2023 and 2024 that they have actions underway to develop the preparedness plan and identify needed research. By implementing GAO's recommendations, DOT and other aviation stakeholders would be better positioned to address a communicable disease threat while minimizing unnecessary aviation disruptions which were significant in the case of COVID-19.
+
+Key lessons from GAO's work on four COVID-19 aviation financial assistance programs— the Department of the Treasury's Payroll Support Program (PSP) and CARES Act loan program and DOT's Airport Grants and Aviation Manufacturing Jobs Protection Program—include the following.
+
+Financial and other safeguards,
+when developed before distributing assistance, can help agencies minimize risks associated with emergency funding. DOT and Treasury quickly awarded funds but did not always have safeguards in place in a timely manner. For instance, Treasury did not quickly implement a monitoring plan for PSP.
+Multiple programs or paths within a program
+may better accommodate businesses of varying types and sizes. Businesses eligible for the PSP and loan programs ranged from large airlines to ticket agents with a handful of employees. Large airlines viewed the programs favorably, but small businesses reported challenges accessing funds.
+Clear communication
+with eligible entities is important for new or expanded funding programs. Some program applicants reported confusion—e.g., small businesses new to applying for federal funding—regarding issues such as eligibility requirements and expected funding time frames.
+Workforce retention
+requirements were a part of all four programs, but airlines still struggled with sufficient staffing to handle air traffic when it recovered. The aviation industry credited the funding programs, especially the PSP, in providing critical support. But factors such as early retirements and pauses on employee training also affected airline workforce levels.",JUST_DO_IT,Public,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-24-106754,"U.S. Government Accountability Office, ""Commercial Aviation: Key Lessons from COVID-19 Preparedness and Emergency Financial Assistance to the Industry"", GAO-24-106754, Mar 18, 2024",Public domain (U.S. Government work),verbatim
+dmaic_055,"How should I tell front-end to stop passing bugs to back-end by default?
+
+I'm part of a back-end software development team, currently trying to fix bugs. We're seeing a problem wherein the front-end team will pass bugs to the back-end team by default for root cause analysis (RCA).
+For example, the quality engineering (QE) team will file a bug stating that ""doing X, then Y, then Z on the UI will throw an error when it shouldn't"". The bug will be assigned to the front-end team. Sometimes, the default behavior it seems of the front-end team is to assign the bug to the back-end, with a comment akin to ""We're getting an error from the back-end, therefore it is a back-end issue"", and then assign the bug to my team without any inspection.
+Over half the time we perform RCA and find that QE was right, and the bug is in fact not with the back-end, and assign it back to the front-end team. It's important to note that this RCA is on the front-end, not the back-end codebase, meaning that this process isn't out of the abilities of either team. Sometimes this happens multiple times, where the issue moves back and forth until it's finally taken by a team. This has been communicated to the team by our managers that we shouldn't be reassigning bugs like I've described, but the problem persists.
+I'm having frustration in that I'm doing RCA on things that I don't get credit for or, in other words, I'm wasting time doing things that shouldn't be my job. At the end of our sprints, I'm behind on bug counts, and it looks like my performance is very poor.
+How can I communicate effectively to the front-end team that I need to stop working on bugs that aren't in my area? Is there an amicable solution to both teams?",NOT_CPI,Public,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/178176/how-should-i-tell-front-end-to-stop-passing-bugs-to-back-end-by-default,"Question 178176 on workplace.stackexchange.com, asked 2021-09-07, by user53861 (no profile link recorded)",CC BY-SA 4.0,verbatim
+dmaic_057,"While reviewing high-harm event reports, a PSA analyst found a report of a newborn who nearly died after the mother fell asleep holding the baby. Digging further, she discovered dozens of newborn fall reports occurring statewide every year — a pattern invisible to any single facility, which might see only one or two such events annually.",DMAIC,Public,single annotator,1,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Bringing-Awareness-to-Infant-Falls-Story.aspx?ctg=Falls,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_059,"Should Product Owner be present on all retrospectives?
+
+As a scrum master I will join new development team. 
+Some additional information about environment:
+
+The team works iteratively, but they don't do any retrospectives,
+Previous scrum master (I'd rather say project manager) was quite authoritative,
+The product owner is also the direct boss to all team members at the same time. 
+
+I was present on a few standups as a guest and have some reflections on it; thus, I would like to ask the team some questions about it. This is why I want to introduce retrospective meetings.
+I informed the product owner -- the boss of the team members -- that I'd like to spend 1 hour weekly on such meetings. He agreed. I also told him that retrospectives are for the team and he doesn't have to be present on all meetings. Then he didn't agree. He wants to be present on all meetings.
+In my opinion his presence may cause retrospectives to be biased - people will not behave naturally, hiding some information for political reasons. 
+Am I right? What are important repercussions of such a configuration? What should I be aware of?",JUST_DO_IT,Public,single annotator,1,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/5681/should-product-owner-be-present-on-all-retrospectives,"Question 5681 on pm.stackexchange.com, asked 2012-05-13, by Bartek Kobyłecki (https://pm.stackexchange.com/users/1021/bartek-koby%c5%82ecki)",CC BY-SA 3.0,verbatim

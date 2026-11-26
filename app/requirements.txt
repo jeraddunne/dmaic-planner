@@ -1,0 +1,28 @@
+# The web app's environment (Phase 3), exact versions. The model libraries match
+# the project .venv the Phase 3 candidates were measured with, so the deployed app
+# gives the same numbers.
+#
+#   python -m pip install -r app/requirements.txt
+#
+# Linux without a GPU: install the CPU build of torch first, or pip downloads the
+# CUDA build (several GB) that a CPU never uses. The Dockerfile does this.
+#   python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.15.0
+# Windows and macOS: the default torch wheel is already CPU-only.
+#
+# Tests (app/tests and tests/test_app_inputs.py) also need: pytest==8.4.2
+
+gradio==6.32.0
+gradio_client==2.7.2
+PyYAML==6.0.3
+
+# The model: src/dmaic_planner/phase3_models.py and what it imports.
+torch==2.15.0
+sentence-transformers==6.3.0
+transformers==5.24.1
+tokenizers==0.23.3
+huggingface_hub==2.5.0
+safetensors==0.8.0
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+pandas==2.3.3

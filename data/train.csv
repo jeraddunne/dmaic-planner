@@ -1,0 +1,437 @@
+id,text,label,decided_by,n_labels,source,source_url,attribution,license,storage_mode
+dmaic_001,"Southcentral Foundation needed to respond to customer-owner expectations for better service delivery amid rapid population growth in its Anchorage service area, build recruitment and retention strategies for short- and long-term workforce needs, and keep pace with a changing regulatory environment for Alaska Native health care.",NOT_CPI,single annotator,1,NIST Baldrige Application Summaries,https://www.nist.gov/system/files/documents/2017/10/11/2011_Southcentral_Foundation_Award_Application_Summary.pdf,"Team paraphrase of the Southcentral Foundation Baldrige Award application summary (2011), hosted by NIST",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_002,"Is it still possible to use formal methods if the organization has chosen not to adopt them?
+
+I managed a project in a company where I was the only person with experience of using formal methods (Prince 2).
+The directors of the company, and the other senior staff, all took the attitude that the project was my responsibility, and if I asked for help they would give it - but otherwise I should just go away and deliver the results.
+They were not interested in forming a project board, or reviewing risk registers, or even breaking it into manageable stages. It's not that they were disinterested - they just didn't ""get"" the reason for formal processes, as they had never used them in the past. It's not that all of their projects had been successful in the past: their management style just didn't fit with formal processes.
+I capitulated and delivered the project (on time and budget and to their satisfaction, amazingly) without imposing any formal processes outside my own project team, but I felt very exposed. If I faced a similar situation again, how should I handle it?",KAIZEN_EVENT,single annotator,1,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/1108/is-it-still-possible-to-use-formal-methods-if-the-organization-has-chosen-not-to,"Question 1108 on pm.stackexchange.com, asked 2011-03-16, by Iain9688 (https://pm.stackexchange.com/users/301/iain9688)",CC BY-SA 2.5,verbatim
+dmaic_003,"A health system found that its event reporting policies and practices were inefficient, leaving safety event responses incomplete because issues were not reliably escalated or followed up.",KAIZEN_EVENT,single annotator,1,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Improving-Reporting-Tiered-Huddles-Story.aspx?ctg=Communication,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_004,"Overloaded before surgery, a ward nurse entrusted a critical warning about a brittle diabetic's extreme insulin sensitivity to an untrained transport assistant, who forgot to relay it. The bedside glucometer had not been docked, so the low readings never reached the EHR either; the patient was found in recovery with a blood glucose of 15 mg/dL and recovered after intravenous glucose.",NOT_CPI,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/empty-handoff,"Team paraphrase of the AHRQ PSNet WebM&M case ""Empty Handoff"" (2012)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_005,"GAO found that the Federal Emergency Management Agency (FEMA) —a component within the Department of Homeland Security (DHS)— partially followed leading practices for risk assessment and information quality during the development, operation, and maintenance of the National Risk Index (NRI). The figure below lists these practices.
+
+FEMA took steps to define and disseminate information about the purpose and scope of the NRI and provided additional information on the methodologies and data used to inform the index. However, FEMA did not consider what information users (e.g., emergency managers) would need to tangibly apply NRI results when making decisions about how to reduce risk. Moreover, FEMA did not explain how users should apply NRI information in conjunction with other FEMA risk tools to generate effective risk insights. Lack of information about how to apply results undermines the NRI’s perceived utility.
+
+FEMA took steps to use diverse sources to design the NRI, including consulting relevant sources and subject matter experts. FEMA also followed an established process to verify and validate hazard calculations and risk scores. However, FEMA did not consistently use sensitivity analyses to verify the model’s outputs or inform significant changes to data sources and methodologies. Conducting such analyses would enhance understanding of factors that could affect NRI results, such as methodological choices that could lead to over- or under-estimation of specific aspects of hazard risk. Disclosing results of any such analyses conducted would also enhance user understanding of how those factors could affect risk scoring in their specific circumstances.
+
+FEMA established a process to communicate and engage with subject matter experts on future updates to NRI data. However, FEMA does not have an established mechanism to systematically collect ongoing user feedback and use it for continuous NRI improvement. Without such a mechanism, FEMA does not have the information it needs to assess whether the tool provides valuable information to its users to address their hazard mitigation planning needs.",DMADV,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-26-107894,"U.S. Government Accountability Office, ""Disaster Risk: Improvements Needed to Enhance FEMA’s National Risk Index"", GAO-26-107894, Sep 10, 2026",Public domain (U.S. Government work),verbatim
+dmaic_006,"How to be productive while waiting for meetings to start, when managers are casual about being late
+
+The problem: I cannot work normally when I know I will be interrupted any minute. 
+Example: 
+
+My manager say we have a team meeting (all 12 members) with the big boss in 14:30.
+In 14:27 I am already in a standby mode and cannot continue working normally, because I expect to be called any minute. 
+It's 14:35 nothing happens, everyone keeps on working. I text them in our skype chat ""Aren't we supposed to go to the meeting already?"", The response is ""Why are you in a hurry? They will call us soon.""
+It's 14:50 - nothing happens.
+15:30 - we are finally called to the big meeting! 
+We sit in the conference room and another coworker ([person]) comes in and say ""we need to talk about something important"". Our meeting is called off and we return to our desks.
+The meeting with [person] is over after 5 mins. Again we are on a standby to start our meeting. 
+16:50 - nothing happens. Our managers do not inform us what is going on, are we having a meeting soon or not. 
+
+This is just one example. I was in situations like this many times and still can't cope with it and continue my work stress-free. The pressure of being called just now is distracting me from thinking about my tasks. Sometimes is 5 min wasted, but sometimes it can be an hour. 
+Measures taken by now: I talked with my managers, they don't get me seriously and say ""Don't think about it, just continue working."" They are not willing to change this process, while the only thing I want is to be informed what's going on (Do I have to wait 5 mins or 1 hour for example)
+Question: Since nothing can be done from their side, I want to ask what can I do from my side to cope with this problem. How to continue working normally and not waste time waiting? Are there any tricks to concentrate and ignore this standby situation?
+Update: This meeting was about our team performance and our salary raises depending on that. I couldn't stay carefree as I kept repeating in my mind what I would say about my projects.
+RESOLUTION: 
+The meeting did not take place on Friday (the day it was scheduled). In addition, my manager wrote in a chat that he joked about the topic and was not about ""Performance Review"". He apologized for joking about it (I suspect he saw my question here) and I replied that they should take these things more seriously. He later wrote ""Let's go and see the boss. Now."" We went and talked for 2 hours about how the reviews would be made from here on out and that this time everyone would receive an equal pay increase. Also, I planned my mini-tasks and now I feel better about waiting. 
+P.S. The location is Bulgaria, but I don't think this is common problem for companies here.",JUST_DO_IT,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/145620/how-to-be-productive-while-waiting-for-meetings-to-start-when-managers-are-casu,"Question 145620 on workplace.stackexchange.com, asked 2019-09-27, by zstefanova (https://workplace.stackexchange.com/users/43050/zstefanova)",CC BY-SA 4.0,verbatim
+dmaic_007,"As GAO reported in December 2024, the Forest Service did not meet its annual targets for amount of timber sold in fiscal years 2014 through 2023, averaging about 90 percent of its targets during this time frame. During interviews with GAO for this review, agency officials identified factors that limited their ability to attain these targets, including staffing and legal challenges. For example, officials said staff capacity limited their ability to complete work needed to manage timber sales. Officials said staff reductions in 2025 further strained their capacity. The agency’s workforce decreased by about 20 percent in response to a February 2025 executive order for large-scale workforce reductions. Given these reductions, officials said increasing timber sales in response to a March 2025 executive order on expanding timber production would be challenging.
+
+Timber Harvest Operations (left) and a Forest Service Official at the Site of a Timber Sale (right)
+
+Agency officials and stakeholders identified opportunities to improve the Forest Service’s management of timber sales, such as the following:
+
+Expanding practices to more effectively use staff and conduct strategic workforce planning.
+Officials and several stakeholders said that increasing the use of partners and contractors and newer tools and technologies could help the agency address its staffing challenges. Officials and industry, conservation, and nonfederal government stakeholders also said the Forest Service needs more staff and staff with the right expertise to manage timber sales. The agency has not assessed how recent and ongoing changes to its workforce and organizational structure will affect its capacity. By conducting strategic workforce planning, the Forest Service could better understand how to recruit and retain the critical staff it needs to effectively manage timber sales.
+Improving communication.
+Officials and several stakeholders said that improving the frequency and consistency of communication with stakeholders and the public could improve the Forest Service’s management of planned timber sales. For example, an industry stakeholder said the agency could provide more current, comprehensive information on timber sales on its website. By more frequently and consistently communicating information about planned timber sales to stakeholders and the public, the Forest Service could better manage its timber sales.",DMAIC,adjudicated,9,GAO Reports,https://www.gao.gov/products/gao-26-107993,"U.S. Government Accountability Office, ""Forest Service: Opportunities Exist to Improve Timber Sale Management"", GAO-26-107993, Jun 4, 2026",Public domain (U.S. Government work),verbatim
+dmaic_009,"What are some commonly tracked metrics in Kanban?
+
+I'm currently working with a development group that has a variety of project management approaches. They use a Kanban board for tracking work with a constantly re-prioritized backlog, they have iterations and a burn-down chart like scrum, and they have a PMO that wants to know the overall status of the project in a nice, neat timeline. 
+After working with the project for about a month, it seems like this team delivers sets of functionality that usually take a few weeks to create and the priorities shift frequently, making Kanban a great approach for the team. I'd like to get rid of the burndown charts and the long-term project plan, since it changes so often, but there is a real sense of apprehension that some of the long-term goals for the overall project won't be met by their required deadlines. 
+Does anyone have experience with Kanban metrics to demonstrate progress through work - especially long-term goals that are being worked toward?",DMAIC,single annotator,1,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/10657/what-are-some-commonly-tracked-metrics-in-kanban,"Question 10657 on pm.stackexchange.com, asked 2014-01-27, by Daniel (https://pm.stackexchange.com/users/7944/daniel)",CC BY-SA 3.0,verbatim
+dmaic_011,"Addressing unnecessary daily meetings with manager?
+
+About 6 months ago I was hired at a startup software company as a developer. The company itself is great. I have learned a tremendous amount as I transitioned from school to industry and am thankful for the company for providing me this opportunity.
+The problem:
+Morale on our QA team is very poor - in stark contrast to the other teams. This can be mostly attributed to our manager who is universally disliked on our team (it must be said...).
+Recently he has started targeting me:
+He has complained to his manager about me foot dragging and has scheduled me for daily meetings with himself and his manager. Here's the thing - we have a Jira Kanban Board in which all my progress is tracked (and I have made significant improvements in finishing tasks rapidly) and I am forced to regurgitate the progress that is tracked on the Kanban Board during the meeting which is honestly a huge waste of time. I am also starting to feel that this manager is purposely setting me up to fail. For example, he scheduled a meeting at 9:15 AM and then emailed me at 9:10 AM to push the meeting to 10:00 AM. When I didn't receive his email, he got mad at me for not checking my email frequently (note the 5 minute notice).
+There are countless other incredibly silly examples I could give.
+The question:
+I don't want to bring up the constant micromanagement (lets be honest, this discussion never ends well) but I am simply at my wits end when it comes to these daily meetings. It's honestly getting infuriating. How do I bring up that I don't wish to attend these meetings anymore?
+A few side notes:
+Normally this behavior would be a red flag about impending termination. I am not really concerned about being terminated though: I continually receive important tasks and I am not the only person that has dealt with this (according to my co-workers). According to my co-workers, this manager may be behaving this way out of self-incompetence (which I have occasionally noticed).
+UPDATE:
+Some great feedback and suggestions thus far. I should note that these are not stand up meetings - we already have those biweekly.",KAIZEN_EVENT,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/139901/addressing-unnecessary-daily-meetings-with-manager,"Question 139901 on workplace.stackexchange.com, asked 2019-07-08, by James (https://workplace.stackexchange.com/users/99510/james)",CC BY-SA 4.0,verbatim
+dmaic_012,"[redacted] [date in 2016] To Whom It May Concern at the Consumer Financial Protection Bureau, I am writing to file a complaint under USC 1681a2 regarding fraudulent activity on my credit report. I recently discovered that there have been unauthorized charges made on my account with [redacted], and I believe that my personal information may have been compromised. 
+
+The fraudulent activity has caused significant harm to my credit score, and I am deeply concerned about the potential impact on my financial wellbeing. I have taken steps to address the issue by reporting the fraud to the creditor, filing a police report, and notifying the credit reporting agencies. 
+
+However, the fraudulent charges and related information continue to appear on my credit report, despite my attempts to dispute them. This is a clear violation of USC 1681a2, which requires credit reporting agencies to ensure that the information they provide is accurate and complete. 
+
+I am requesting that the CFPB investigate this matter and take appropriate action to ensure that my credit report is accurate and free from fraudulent activity. I am also requesting that any incorrect information be removed from my credit report and that any accounts opened fraudulently in my name be closed immediately. 
+
+I am committed to taking whatever steps are necessary to protect my financial wellbeing and prevent further harm from this fraudulent activity. I appreciate your attention to this matter and look forward to a prompt resolution. 
+
+Sincerely, [redacted]",JUST_DO_IT,single annotator,1,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/6945004,"CFPB Consumer Complaint Database, complaint 6945004",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_013,"Are daily stand ups the same for Kanban and Scrum teams?
+
+There is a lot of discussion about what should and what should not be allowed in daily stand ups. Some people say it should not include status updates. 
+What is the definition of a status update?
+Scrum seems to say that you should do a status update e.g.: 
+
+What you did yesterday, 
+What you will do today and 
+Any Impediments
+
+Is Kanban the same or different?",JUST_DO_IT,single annotator,1,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/16315/are-daily-stand-ups-the-same-for-kanban-and-scrum-teams,"Question 16315 on pm.stackexchange.com, asked 2015-09-29, by TheLearner (https://pm.stackexchange.com/users/4364/thelearner)",CC BY-SA 3.0,verbatim
+dmaic_014,"[redacted] and [redacted] were the original creditors the debt was then sold to [redacted] who uses Love, Beal & Nixon to collect their debts. The documentation and validation of the debts provided are redacted and do not include that amount that the alleged debt was purchased for by [redacted] Love, Beal & Nixon. I have requested that unredacted documentation and have not received it. Collection efforts have not stopped and Love, Beal & Nixon is attempting to strong arm me into paying the full amount of the alleged debt by not providing that information and by not discussing a potential settlement. They have also filed a small claims suit and have attempted to serve my [redacted] ([redacted]) multiple times while I am at work causing distress for him. I am requesting all unredacted documents related to this alleged debt, all statements of payments on the account, all interest and late fees accrued, all unredacted documents related to the purchase and exchange of this debt from [redacted] and [redacted] to [redacted] and Love, Beal & Nixon.",DMAIC,single annotator,1,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/8471976,"CFPB Consumer Complaint Database, complaint 8471976",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_015,"Dears please note that in the last period the invalid inward file management with letter r is increased and appear daily attached sample regards
+
+Dears [user] [user] [user] we have one on the system for your concern regards
+
+Dears [user] [user]
+
+Dear [user] did you chick the fields that appears today regards
+
+Dears [user] [user] please note that we have invalid file regards
+
+Dears [user] [user] we still waiting your feed back regards
+
+Dears please inform us what is the expected date to finish it regards
+
+Greetings please can you inform us if their is a date to finish resolving the problem knowing that a lot of files appear in daily basis regards
+
+Greetings please note that the ticket is open from long time and we need to solve it regards
+
+Greetings [user] the test on inward [items] or outgoing [items] [system] [system] [system] and please note that its difficult to do test four such case regards
+
+Greetings [user] we do the test and its ok for outward and inward and returned [items] no invalid files appear but this mean that the problem is solved [system] [system] also should we need to wait for the [system] to be closed tomorrow regards
+
+Dears [user] [user] sorry for being late I have been in vacation please note that the [items] statues either inward or outward didn't change to final statues after the [system] closed as attached regards
+
+Greetings I replied on the ticket on thursday please chick from your side regards
+
+Greetings [user] its ok now regards
+
+Dears [user] [user] [user] you need to stop the all systems on [user] and how it will take time regards
+
+Dears [user] [user] [user] today [user] [system] please confirm regards
+
+Dears [user] [user] please note that 4 files appear today as attached regards
+
+Dears [user] [user] we do retry to 1 file and the file disappear and also the 3 remaining files disappear automatically regards
+
+Dears [user] [user] please note that others 4 files appear with letter v ( 2 files for each time) regards
+
+Greetings yes regards
+
+Dears [user] [user] please note that no files appear on thursday and today we will keep monitoring till the end of this week and inform you regards
+
+Dears [user] [user] please note that today appear 2 files with letter [system] we will keep it upon your request waiting your reply regards
+
+Dears [user] [user] please note that files with letter [system] is appeared in daily basis same as the [system] files that had been appeared before regards
+
+Greetings any update please as you know its happen daily and frequently in the same day regards
+
+Greetings do you collect the needed data when you connected now regards
+
+Dear [user] uploaded the needed file but please note that the invalid files increase in the last days regards
+
+Greetings attached 2 file regards
+
+Greetings can you return [item] if you connected regards
+
+Dears [user] [user] please note that 1 file appear as attached regards
+
+Greetings please note that that the count of such files is increasing in daily basis more than before please your quick action in order to close this issue regards
+
+Dears for out going [items] only the test regards
+
+Greetings we do the needed test no invalid file appear regards
+
+Greetings please note that yesterday I inform you that we do the needed test for outward and inward and no invalid file appear regards
+
+Greetings [user] confirm regards
+
+Dears [user] [user] do you want to stop the system regards
+
+Greetings waiting your reply please regards
+
+Dears [user] [user] [user] ok for today @ 10:00 regards
+
+Greetings the attached file appear today regards
+
+Greetings please note that no files appear yesterday and today regards",KAIZEN_EVENT,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1006849",CC BY 4.0,verbatim
+dmaic_017,"Dears, kindly your support to check why the system stop sending the request to core that cause the transaction to be failed. Check the attached logs
+
+Greetings kindly we need to provide us with incident report for this issue asap. And explain what do you need from [system] team. Regards any update
+
+Dears, kindly any update for [name] side points below. Regards
+
+Dears, kindly any update for [name] side points below. Regards
+
+Greetings you find the requested inside the shared sftp. Regards
+
+Greetings kindly find attached log for today failed transactions. Regards
+
+Greetings kindly we need your support,we have over that [system] transaction stuck on status [system] approve as attached. Regards
+
+Greetings kindly find attached the payments that stuck on [system] and positive pay,and the logs for the [user]. So please check and advise how to permanently fix this issue. Regards
+
+Greetings I'm not able to reach you, please check the attached screenshot, all transaction failed after 1 am. Regards
+
+Greetings kindly find below the transactions id that stuck as positive pay and aml approve [system] we need to process these transactions asap. Regards
+
+Greetings kindly any update.
+
+Greetings this is urgent, we have also [system] transaction with status [system] failed and the reset button not found, we need also to fix these transactions. Regards
+
+Greetings kindly find below the new id: [system]
+
+Greetings this update for the first [system] [user] we need also the [system] transaction. Regards ok, thanks
+
+Greetings kindly note that we test normal scenario and received [user] from other bank and the system work fine. So we need to deploy it on production,we need description for this change to deploy it. Regards
+
+Greetings kindly we need a select statement to extract all payments that submit by resend button for [system] [file path]. Regards
+
+Greetings any update. Regards
+
+Greetings kindly find attached the excel, about the stuck [user] until now there is no stuck [user]. Regards
+
+Greetings kindly find attached old [user] that we need to return it to manual handling.",DMAIC,adjudicated,9,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1004761",CC BY 4.0,verbatim
+dmaic_018,"The Department of State provides passport, visa, and overseas citizens services to millions of Americans and foreign nationals annually and collects user fees for some of these services. The COVID-19 pandemic discouraged potential travelers who would pay fees, resulting in a 41 percent decline in consular fee revenue in fiscal year 2020. To compensate for this decrease in revenue, State used supplemental and annual appropriations and temporarily expanded expenditure and transfer authorities provided by several acts of Congress. It also drew down unobligated balances that it had carried over into fiscal year 2020.
+
+GAO modeled State's future consular fee revenue stream and costs through fiscal year 2026 across five scenarios. These scenarios used pessimistic, neutral, and optimistic revenue outlook projections based on historical consular fee revenue from fiscal years 2013 through 2020. The modeling indicates that State's carryover balances will decline and likely will not meet the targeted threshold for the consular fee carryover balance in some fiscal years if fee revenue does not return to pre-pandemic levels in fiscal year 2022 and beyond. See figure.
+
+Consular and Border Security Program (CBSP) Account Carryover Balance Median Values across Simulation Results, Fiscal Years 2022–2026
+
+Notes: According to State officials, State's official target is to maintain a minimum 25 percent carryover balance by retained fee each year. GAO used State's target to calculate 25 percent of average historical obligations against the CBSP account as a whole. GAO presents this as the benchmark value of $803 million and uses this calculation to determine the likelihood of State meeting the targeted threshold. GAO's model reflects retained fee amounts as of November 2021.
+
+Additionally, GAO's simulation also shows that projected revenue may not be sufficient to cover costs through fiscal year 2026 across all five scenarios. For example, if State's consular fee revenue recovers to pre-pandemic levels in fiscal year 2023 (scenario 2), GAO estimates that the carryover balance is unlikely to meet the targeted threshold each year through fiscal year 2026. Specifically, GAO estimates that in this scenario the carryover balance would be $151 million in fiscal year 2026—hundreds of millions of dollars below the targeted threshold. According to State, falling below the targeted threshold could put State at risk of being unable to make necessary obligations at the beginning of the fiscal year. Consular fee revenue is not received evenly over the course of a year, according to State officials, instead peaking in spring and summer.
+
+State has requested statutory changes to its authorities to set and use some consular fees so that it can generate additional revenue or have more flexibility in how it can use revenue. However, State has not documented its analysis to support these requests. Without a plan for assessing the potential impact of the requested changes, State risks recommending statutory changes that do not align with actual needs. As a result, State could collect consular fees in excess of its costs for some services, thereby over-charging visa or passport applicants.
+
+State uses estimates of unit costs, demand and revenue to achieve full cost recovery and to project the sufficiency of consular revenue. State's process for estimating unit costs of consular services fully meets two and partially meets three key elements of economic analysis. Specifically, State does not calculate the range of potential costs, such as those that result from variations in how much time it takes to process a visa; as such, State does not calculate the statistical variability of the resulting unit costs. This lack of transparency on the plausible range of unit costs may limit management's ability to identify, analyze, and respond to risks to full cost recovery arising from fluctuations in obligations. In addition, State lacks documentation of its processes for estimating demand and revenue. By not documenting these processes or key analytical decisions, State risks being unable to retain and share its organizational knowledge on fee setting, including communicating its compliance with best practices.",KAIZEN_EVENT,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-22-104424,"U.S. Government Accountability Office, ""Consular Affairs: State May Be Unable to Cover Projected Costs if Revenues Do Not Quickly Rebound to Pre-Pandemic Levels"", GAO-22-104424, Apr 18, 2022",Public domain (U.S. Government work),verbatim
+dmaic_021,"How to encourage actual participation in code reviews/pull requests
+
+I'm currently acting as team lead for a small group of developers, all of which (including myself) are fairly new at the company. Part of my job is setting up the development workflow, and in that vein I've made it mandatory that every feature goes through a pull request and code review before being merge to the main development branch (we utilize gitflow).
+The problem I'm seeing is that one of my team members is consistently approving all pull requests, regardless of size within ~5 minutes of them opening, never having any suggestions or comments. I can only assume this means that they're not actually reading the pull requests and just rubber-stamping everything that comes on their plate for review (either that, or I'm a flawless programmer, which seems unlikely).
+Confronting them seems like it could cause some unnecessary conflict, as I can't prove that they're not reviewing the PRs, and I don't want to create a situation where people feel they're required to leave feedback.
+How can I encourage active participation in the code review process and avoid rubber stamping?",DMAIC,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/153918/how-to-encourage-actual-participation-in-code-reviews-pull-requests,"Question 153918 on workplace.stackexchange.com, asked 2020-02-26, by Bitsplease (https://workplace.stackexchange.com/users/62227/bitsplease)",CC BY-SA 4.0,verbatim
+dmaic_024,"Jefferson Capital Systems is reporting a collection account on my credit report under account number [redacted] that I have no knowledge of and have never received proper validation for. I was never notified of this debt being purchased or transferred to Jefferson Capital Systems, which is a direct violation of my rights under the Fair Debt Collection Practices Act (FDCPA) 1692g, which requires a debt collector to provide written notice of the debt and my right to dispute it within 5 days of their first communication. I have never received any written communication from this company. Furthermore, this account is not being reported accurately or in compliance with the [redacted] reporting standards set forth by the Consumer Data Industry Association (CDIA). [redacted] compliance requires that all data furnishers report complete, accurate, and verifiable information to the credit bureaus. The reporting of this account contains deficiencies that do not meet those standards, which is also a violation of the Fair Credit Reporting Act (FCRA) 1681s-2 (a), which prohibits furnishers from reporting information they know or have reasonable cause to believe is inaccurate. Under FCRA 1681e (b), credit reporting agencies are required to follow reasonable procedures to ensure maximum possible accuracy of consumer credit information. This account as currently reported does not meet that standard and is causing serious harm to my credit profile and financial reputation.",DMAIC,single annotator,1,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/23110903,"CFPB Consumer Complaint Database, complaint 23110903",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_025,"How do I facilitate a first time Agile retrospective?
+
+I have never facilitated a retrospective before and I have been asked to facilitate one on Tuesday. I have ordered a book which is arriving tomorrow and I have been checking out various websites.
+I am thinking of keeping things simple so that I don't stress out.
+Can someone please suggest a simple, yet effective technique which I could use and how roughly it should play out?",JUST_DO_IT,single annotator,1,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/15446/how-do-i-facilitate-a-first-time-agile-retrospective,"Question 15446 on pm.stackexchange.com, asked 2015-07-10, by TheLearner (https://pm.stackexchange.com/users/4364/thelearner)",CC BY-SA 3.0,verbatim
+dmaic_026,"Greetings we observed abnormal behavior related to spring service on the staging environment. When we tried to send soap request toward the staging we get “internal system error”. When we perform [name] [system] ” to check the service, we can find the process is up and running but it seems hanging. We need to kill the process and restart spring service again. It's very important to know what are the reasons behind this behavior. Thanks for your support. Kindly note that I've uploaded the [file] log when the service was hanging.
+
+Greetings we need your kind support to find the solution asap as this incident causes a lot of headache for other teams when they want to perform the testing. Please we need to find the root cause asap.
+
+Greetings we performed temp solution on the staging environment, we will be waiting your findings for root cause.
+
+Greetings regarding the temp solution, it was you mentioned ([system]). Please share what all possibilities can be taken from [system] side to solve this issue. Since we can't go live with this workaround
+
+Greetings regarding the temp solution, it was you mentioned ([system]). Please share what all possibilities can be taken from [system] side to solve this issue. Since we can't go live with this workaround
+
+Greetings could you please clarify more about the changes performed by the developer to fix this issue [system]
+
+Greetings could you please update us regarding below as we need to get your feedback asap ? [system]
+
+Greetings kindly note that we tried to check the installed fix by stopping the [system] that send request every 20 min… and unfortunately, we faced the same issue before. Please note that this is critical issue, and we need to make sure the applied fix will solve this issue asap.
+
+Greetings kindly note that we tried to check the installed fix by stopping the [system] that send request every 20 min… and unfortunately, we faced the same issue before. Please note that this is critical issue, and we need to make sure the applied fix will solve this issue asap.
+
+Greetings could you please advise if the current release on staging has this fix or not ? Br,
+
+Greetings could you please update us ? Br
+
+Greetings you can proceed with case closure. Br,
+
+Greetings you can proceed with case closure. Br,",DMAIC,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1008671",CC BY 4.0,verbatim
+dmaic_027,"A complex tapering dexamethasone order led the pharmacy to send one multidose vial labeled with instructions for converting milligrams to milliliters. The nurse administered the entire 20 mg vial as the initial 10 mg stat dose, a twofold overdose discovered when she requested more drug an hour later; because only one dose was given, no harm resulted.",JUST_DO_IT,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/milliliters-vs-milligrams,"Team paraphrase of the AHRQ PSNet WebM&M case ""Milliliters vs. Milligrams"" (2010)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_028,"On [date in 2018], I closed my checking account with Capital One Bank. At the time I signed the papers to close the account I was told I had to close all auto pay accounts. I called the next day to close an autopay I had through this Capital One account for a [redacted] Credit Card. They said it was too late, and that they were already processing the payment. I acknowledged, and I am prepared to pay for, the overdraft fee and amount of this original payment - even though I then paid [redacted] directly over the phone through my new bank account (with [redacted].) However, a month later I went to charge a 4 payments for [redacted] through [redacted], via [redacted], each roughly $13.00, $17.00, $3.00 and $3.00. Although I had closed my Capital One bank account, Capital One did NOT mark the account as closed. A debt collection representative called me on the phone and said I owed over $600.00 in overdraft fees as they re-opened the account when [redacted] went to charge the account - instead of just reporting the account as closed. This was not an automatic, recurring payment. I had other payment methods available to [redacted]; however, Capital One allowed [redacted] to charge the account multiple times resulting in multiple overdraft fees. I have tried to resolve this issue with Capital One and [redacted]; [redacted] refunded their charges but is unable to assist with Capital One overdraft fees - fees that would have been avoided if the account would have remained closed from the [date] date as I signed off on. I closed this account. No further charges should have been able to post to this closed account. I have paperwork I signed noting that the account was closed. I want Capital One to charge me only for the $42.00 and the resulting overdraft fee from [redacted].",JUST_DO_IT,adjudicated,9,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/3122723,"CFPB Consumer Complaint Database, complaint 3122723",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_029,"The customer trying to bay bill and received error code [system] inquiry reference number: [system] [user] customer trying to bay bill by [name] but not succeed,the customer bayed the bill by another way now he didn't has bill but,received the same error [user] following is the external message: [system] [user] any update please [user] find following request and receiver request: [code] response: [code] [user] any update please [user] kindly we received an error [system] request: [code] response: [code] inquiry reference number [system] [user] please find following request and response for test number [system] request: [code] response: [code] [system] after pay bills for test number [system] and amount become 0,when the bill inquiry rejected with error [system] request: [code] response: [code] [user] for amount 0 the error should be no bills found [user] waiting update from you,as comment below you will check with biller thanks [user] what is the min amount ? [user] when the remaining amount [system] what is the correct behavior, please find following test scenario: step one [system] inquiry for: [system], bill amount [system] transaction amount [system],remaining amount [system] step 2: bill inquiry for: [system], bill amount [system] transaction amount [system],remaining amount 9 step 3:bill inquiry,result no data found [user] what about remaining amount how will be handled, it will be transferred to next month ? [user] id numbers same as bill number please check attached [user] please confirm that will be not appeared on production,also when the remaining amount [system] [system] it will be no option to enter amount, it is correct behavior [system] [user] the test is done successfully [user] accord should be live you can close the ticket",JUST_DO_IT,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1008607",CC BY 4.0,verbatim
+dmaic_030,"Be advised that I hereby dispute the validity of the alleged debt listed above entirely. [redacted], illegally collected the above-listed alleged debt and took payment on a debt that I do not owe, EXTORTION and theft by deception. Defamation of character and Slander of my name. Fraud and GROSS MISREPRESENTATION. No consideration, False advertising such as advertising ""loans"" based on the customer's own credit. I have an absolute right to rescind a signature from any contract or agreement that was not fully disclosed to me. Such a contract or agreement is null and void, as if it never existed at all, and all to return to the lawful owner plus reasonable money and interest. I am not obligated by any contract or agreement obtained under conditions of fraud, deceit, or non-disclosure. Reporting Late payment and Utilization is illegal! [redacted] have 10 calendar days to update my late fees and reporting balance or balance utilization to 5 % or below and or delete all reporting balance Utilization and late fees from the below account/s or I demand account DELETED Wherefore there can be no payment of debt. Only discharge of debt, acceptance and return for discharge. [redacted] Civil liability. Civil liability for willful noncompliance. 15 U.S.C. 1681o - U.S. Code - Unannotated Title 15. Commerce and Trade 1681o. Civil liability for negligent noncompliance. 15 U.S. Code 1640 - Civil liability with respect to any failure to make disclosures. 15 U.S.C. 1611 - Criminal liability for willful and knowing violation. I agree to pay any financial obligation which I might lawfully owe, on the condition that you provide: 1. Validation of the debt- that is, the actual accounting per [redacted].
+
+2. Verification of your claim against me. A signed invoice or sworn affidavit.
+
+3. A copy of the contract binding both parties [redacted] and [redacted]. 
+
+1. I need full Disclosure. I was not told that I was actually creating the credit.
+
+2. Equal Consideration brought nothing of value to the table and had nothing to lose. [redacted] 3. Law terms and conditions were based on fraud!
+
+4. The wet ink signature of both parties. 
+
+[redacted] actual damages, Defamation of character, consumer rights violations, multiple violations of Federal Debt Collection Practices Act (FDC PA), Fair Credit Reporting Act (FCRA), fraud, aggravated identity theft, Identity theft, extortion, theft by deception, Securities and Exchange Commission (SEC), [redacted]) fraud, Conspiracy and Racketeering of {>= $1,000,000}. 
+
+
+Within 10 calendar days after receipt of a notice, shall return any m [redacted] money that has been given to anyone in connection with this transaction and shall take any action necessary to reflect the termination of the security interest. [redacted] will further pursue all of my legal remedies without further notice. This letter serves as evidence that [redacted] has attempted to resolve this matter formally before filing a court case. I will demand discovery and trial by jury. Failure to properly respond will be followed up with our FTC, [redacted] and Attorney General complaint, fee schedule and lawsuit. Fraud vitiates the most solemn contracts, documents and even judgments [ U.S. vs. Throckmorton, 98 us 61, at pg.65 ]. It would be unjust to allow one who made false representations to retain the fruits of a bargain induced by such representations. Whipp v. Iverson, 43 Wis 2d 166.",NOT_CPI,majority,9,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/8073903,"CFPB Consumer Complaint Database, complaint 8073903",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_032,"On the day an immunosuppressed patient was discharged, her blood culture speciated as Listeria, a life-threatening and reportable organism; the result landed in the attending's EHR inbox but went unseen until after she had left. Once recognized, she was readmitted immediately, treated with intravenous antibiotics, and did well.",NOT_CPI,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/delayed-recognition-positive-blood-culture,"Team paraphrase of the AHRQ PSNet WebM&M case ""Delayed Recognition of a Positive Blood Culture"" (2017)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_034,"Team members spending too much time on Stack Overflow
+
+Almost 8 months ago, I encouraged my team members to follow Stack Overflow so that they can read questions, help others, and build their skills. But now this has gotten out of hand. I have a team of 5 developers, and three of them each make at least 150 points on average during business hours.
+The issue is that the team sits remotely. They are in a different country and in a different time zone, so I can't physically be there to keep an eye on them and stop them from doing it. I am seeing the decline in productivity as well as quality. 
+For instance, we had a couple of missed deadlines and almost double the number of bugs month-over-month. The complexity level has remained the same for the tasks, but productivity and quality are declining. 
+It seems that they are somewhat addicted to Stack Overflow. I don't/can't ask the network team to block Stack Overflow, since that will hamper the others as well. I have asked them repeatedly to stop contributing on Stack Overflow. 
+Please don't take me wrong, I don't want them to stay away from Stack Overflow, (I was the one who encouraged them to participate on Stack Overflow, and created my account as well) but I just want them to keep it in a reasonable limit. 
+I should also add that I have conveyed my concerns informally and formally via email and have told them that this behaviour would reflect on their bi-annual reviews. 
+How can I get them (or force them) to concentrate on work and get away from Stack Overflow?
+
+Just for an update, my team members saw this post as it came up in ""hot questions"" list. They agreed on putting work first, and the issue has been resolved without anyone losing their jobs. It has been almost 6 months since this post and they are still contributing on Stack overflow, but they are keeping a balance which is a win-win for both parties. Thanks to the community here in helping.",NOT_CPI,adjudicated,9,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/27555/team-members-spending-too-much-time-on-stack-overflow,"Question 27555 on workplace.stackexchange.com, asked 2014-06-19, by user2711965 (https://workplace.stackexchange.com/users/22400/user2711965)",CC BY-SA 3.0,verbatim
+dmaic_036,"A patient's new outpatient oxycodone prescription existed only in a clinic EHR that did not exchange data with the hospital system, and the patient forgot to mention it at admission. Unaware, the anesthesiologist gave epidural morphine after knee surgery; the opioid combination caused respiratory depression requiring naloxone and brief intubation, though without lasting harm.",DMAIC,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/falling-between-cracks-software,"Team paraphrase of the AHRQ PSNet WebM&M case ""Falling Between the Cracks in the Software"" (2016)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_037,"Can (and should) Agile be used for Infrastructure projects?
+
+Is it possible to use agile methods for large IT infrastructure projects?
+I am working on a large project where the development team uses agile methods, while the infrastructure (which is where I am involved) is being established using waterfall methods. We recently debated whether agile could be used throughout the project, but failed to reach a conclusion. If anyone has practical experience, what were the pros and cons of the approach?",NOT_CPI,adjudicated,9,Stack Exchange: pm.stackexchange.com,https://pm.stackexchange.com/questions/4440/can-and-should-agile-be-used-for-infrastructure-projects,"Question 4440 on pm.stackexchange.com, asked 2012-01-23, by Iain9688 (https://pm.stackexchange.com/users/301/iain9688)",CC BY-SA 3.0,verbatim
+dmaic_038,"After a recurrent brain hemorrhage, warfarin was stopped and left off the discharge medication list, but the outpatient pharmacy's active list still carried refills, so mail-order warfarin arrived at the patient's home and he restarted it. His INR was elevated at follow-up, and even adding an allergy-list warning did not remove the drug until the primary care physician contacted the pharmacy directly.",JUST_DO_IT,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/discontinued-medications-are-they-really-discontinued,"Team paraphrase of the AHRQ PSNet WebM&M case ""Discontinued Medications: Are They Really Discontinued?"" (2014)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_039,"Pursuing high-reliability goals, a facility examined event reports of errors made while preparing IV products. The core weakness was a manual 'pull back' syringe technique: after compounding, the preparer drew the plunger back to show the volume supposedly added, but nothing actually confirmed that the right drug and amount had been used.",JUST_DO_IT,single annotator,1,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Reducing-Risk-Compounding-Med-Errors-Story.aspx?ctg=Medication,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_040,"Through analysis of sources containing government-wide information on federal activities, GAO identified 148 federal insurance and other activities that transfer risk or losses from adverse events to the government (see fig.). Unlike private insurance, the activities do not necessarily have a contract or charge premiums or fees in exchange for assuming risk. Even when premiums or fees exist they may not cover all costs, as federal expenditures can be driven by policy goals or agency missions rather than the aim of fiscal solvency. GAO generally was able to provide financial or budget information for the activities.
+
+Federal Programs or Activities That Transfer Risk or Losses to the Government, as of September 30, 2017
+
+Category
+Number of activities
+Federal insurance programs
+5
+Federal loan guarantee programs
+33
+Senior preferred stock purchase agreements with Fannie Mae and Freddie Mac
+2
+Certain large federal employee and veteran benefits
+a
+13
+Other activities that (1) provide property damage or financial loss compensation, or (2) offer life, health, or disability benefits to nonfederal employees.
+95
+Total
+148
+
+Source: GAO
+.
+| GAO-19-353
+
+Note: GAO's results are based solely on the criteria GAO developed for this report and the sources and methodology it used. Other criteria, sources, or methodologies might yield lists that differ from GAO's in number and composition of activities.
+
+a
+GAO identified 13 Treasury accounts that accounted for 99 percent of all federal employee and veterans benefits liabilities to the federal government as of September 30, 2017. These include accounts that fund retirement benefits, disability insurance, health insurance, and life insurance programs for civilian and military employees.
+
+The government's primarily cash-based budget generally does not record the full cost of commitments incurred until corresponding payments are made in the future. Therefore, the budget may not accurately reflect federal costs or the likely claim on federal resources for such activities. For some claims, such as pension and life insurance, the federal commitment occurs years before payments are reflected in the budget. Additionally, payments the government may be expected to make based on policies or past practices (but is not legally required to make) may not be evident in the budget. For example, the Commercial Space Launch Insurance Program created a potential liability to the government of up to $3.1 billion per licensed space launch in 2017 but never has been included in the budget. GAO previously recommended (
+GAO-08-206
+, and reiterated in
+GAO-14-28
+) that Congress consider expanding the use of accrual-based information in the budget documents submitted to Congress. However, this recommendation has not been implemented. Accrual measurement would provide enhanced control over future spending by recognizing long-term costs when decisions are made.",NOT_CPI,adjudicated,9,GAO Reports,https://www.gao.gov/products/gao-19-353,"U.S. Government Accountability Office, ""Fiscal Exposures: Federal Insurance and Other Activities That Transfer Risk or Losses to the Government"", GAO-19-353, Mar 27, 2019",Public domain (U.S. Government work),verbatim
+dmaic_041,"Sharp faced capacity constraints limiting patient access, limited capital depth and thin margins, high operational costs, aging facilities, workforce shortages, and the challenge of creating a culture of service excellence across a large multi-hospital system.",NOT_CPI,adjudicated,9,NIST Baldrige Application Summaries,https://www.nist.gov/system/files/documents/2017/10/11/2007_Sharp_Application_Summary.pdf,"Team paraphrase of the Sharp HealthCare Baldrige Award application summary (2007), hosted by NIST",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_043,"The nation's 16 critical infrastructure sectors rely on electronic systems to provide essential services such as electricity, communications, and financial services. Federal entities have key roles in helping to protect these sectors.
+
+The Office of the National Cyber Director (ONCD) is to advise the President on cybersecurity policy and strategy, and lead the coordination of implementation of the March 2023
+National Cybersecurity Strategy
+.
+The Department of Homeland Security's (DHS) Cybersecurity and Infrastructure Security Agency (CISA) is to coordinate the overall federal effort to promote the security of the nation's critical infrastructure, including the sharing of threat information.
+The FBI is to lead counterterrorism and counterintelligence investigations and related law enforcement activities across the critical infrastructure sectors and share related cyber threat information.
+CISA and 12 other agencies are sector risk management agencies responsible for providing specialized expertise for protecting the cybersecurity of their assigned sectors (e.g., Department of Energy and the energy sector), to include the sharing of sector-specific threat information.
+
+The 14 federal agencies in GAO's review—CISA, FBI, and the other 12 sector risk management agencies—reported relying on 11 methods to facilitate sharing of cyber threat information with critical infrastructure owners and operators. As shown in figure 1, these agencies used each of the 11 methods to varying degrees (see the numbers next to each method).
+
+Figure 1: Number of Methods Used by 14 Federal Agencies Sharing Cyber Threat Information
+
+The 14 agencies varied in the number of information sharing methods that they each used. Specifically, four agencies—the Department of Defense, the Department of Energy, CISA, and FBI—used more than half of the 11 sharing methods and 10 agencies used fewer than half of the 11 sharing methods.
+
+The agencies took two different approaches to using the 11 sharing methods. Specifically, two agencies—CISA and FBI—used a centralized approach to share information with each of the 16 critical infrastructure sectors. The other 12 remaining federal agencies shared sector-specific threat information.
+
+Six challenges to effective sharing of cyber threat information were identified by at least a third of the 21 entities in GAO's review (14 federal agencies and seven nonfederal entities) (see figure 2).
+
+Figure 2: Six Challenges to Cyber Threat Information Sharing Identified by Federal Agencies and Nonfederal Entities
+
+Although 13 of the 14 federal agencies reported that they have taken initial actions to address these threat sharing challenges, all 14 agencies also acknowledged that these challenges have not been fully resolved for their sectors. In March and July 2023, the White House issued its
+National Cybersecurity Strategy
+and accompanying implementation plan to articulate the administration's plan for addressing the nation's long-standing cybersecurity challenges—including those pertaining to information sharing. The implementation plan includes
+eight initiatives that, if effectively implemented, could help agencies make progress in addressing the cyber threat information sharing challenges. For example, the implementation plan includes an initiative focused on removing barriers to delivering cyber threat intelligence. This initiative could help agencies make progress in addressing the challenge of limited sharing of classified or sensitive information.
+
+GAO's prior work emphasizes the importance of (1) identifying outcome-oriented performance measures and (2) assessing whether existing processes are optimal for addressing challenges.
+
+The implementation plan does not identify outcome-oriented performance measures to assess the effectiveness of the steps taken under the eight information sharing initiatives described in the plan.
+The long-standing nature of the cyber threat sharing challenges raises questions about whether the mix of centralized and sector-specific sharing approaches is optimal. Although the implementation plan calls for CISA to assess whether new or improved sharing methods are needed, it does not include an assessment of whether existing sharing methods should be retired in favor of centralized or sector-specific sharing approaches.
+
+Until the ONCD and CISA take steps to resolve these weaknesses, the long-standing cyber threat sharing challenges will likely continue to persist.",DMAIC,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-23-105468,"U.S. Government Accountability Office, ""Critical Infrastructure Protection: National Cybersecurity Strategy Needs to Address Information Sharing Performance Measures and Methods"", GAO-23-105468, Sep 26, 2023",Public domain (U.S. Government work),verbatim
+dmaic_044,"A postoperative patient developed new leg pain that an overnight cross-cover intern evaluated, but the findings were never passed to the primary surgical team at morning handoff. When she reported chest discomfort the next day, evaluation lagged and she arrested from a pulmonary embolism and could not be resuscitated.",KAIZEN_EVENT,single annotator,1,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/fumbled-handoff,"Team paraphrase of the AHRQ PSNet WebM&M case ""Fumbled Handoff"" (2004)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_047,"The Bureau of Labor Statistics’s (BLS) Employment Situation report (the Jobs Report) provides key information on the nation’s economy based on data from two surveys—one of households (the household survey) and one of employers (the establishment survey). Stakeholders with jobs data expertise said the report generally meets users’ needs. However, they said occasional large revisions can make the data less useful for informing timely decisions, and BLS faces risks to data quality due to lower survey response rates over time (see figure). BLS met its goals for the data’s precision and size of the revisions from fiscal years 2020 through 2025, but it relaxed one goal during the COVID-19 pandemic.
+
+Response Rates to the Jobs Report Surveys, Oct 2015–Sept 2025
+
+BLS obtains input from data users and technical experts through various means to inform improvements to the Jobs Report. However, it does not have a plan to address gaps in obtaining regular user and technical feedback since the Departments of Commerce and Labor eliminated three advisory committees in 2025. Having a plan would help ensure that changes to the Jobs Report meet users’ needs and address technical challenges while preserving data quality.
+
+BLS and the Census Bureau—which conducts the household survey for BLS—have met federal requirements for assessing the effects of lower survey response rates on the Jobs Report’s accuracy but released limited information on their findings. Studies by agency staff found limited effects of lower response rates on the accuracy of the household survey data. However, BLS has not released its assessments of the establishment survey due to limitations, including challenges linking the survey data with more comprehensive sources. BLS has started a new establishment survey study designed to address earlier limitations. Releasing the results could help users maintain trust in the data’s accuracy.
+
+Agency efforts and additional options identified by stakeholders aim to enhance the quality of the Jobs Report data. For example, BLS and Census are planning to add an online response method to the household survey in 2027 to try to increase response rates and lower data collection costs. However, BLS and Census officials said recent funding constraints may delay full implementation. Also, stakeholders, researchers, and BLS officials identified additional options to address survey challenges. For instance, some suggested incorporating administrative data from private and other government sources (such as unemployment insurance data) to help mitigate lower survey response rates.",DMAIC,single annotator,1,GAO Reports,https://www.gao.gov/products/gao-26-107538,"U.S. Government Accountability Office, ""Federal Statistics: Stakeholders Said Jobs Report Generally Meets Their Needs, but Opportunities Exist to Improve Data Quality"", GAO-26-107538, Jun 2, 2026",Public domain (U.S. Government work),verbatim
+dmaic_050,"The issue is we have scanned the [system] [system](outward clearing) and it got deposited, but we are not able to see the deposit entry in [system] queue, please check and advise.
+
+Greetings any update please?
+
+Greetings thanks for update, what is the issue you find out...earlier it was working..is this at [name] end issue? [system]
+
+Greetings any update please as we need to processed with our testing.
+
+Greetings any update please as we need to processed with our testing.
+
+Greetings still we can not see the [items] [system] new [item] scanned, however we still can not see it in [system], please see the attached screenshot from [system] and [system] screenshots attached, please check [system] any update please?
+
+Greetings attached the error we got once we run the statement, please check.
+
+Greetings any update please
+
+Greetings any update please
+
+Greetings any update please thank you
+
+Dear, can you please prioritize this. We need to fix it this week
+
+Greetings re-deposited a new [item] but still can not see it in [system], please refer to attached screen shot
+
+Greetings re-deposited a new [item] but still can not see it in [system], please urgently check and advise
+
+Greetings still we are facing some connectivity issues, can we connect tomorrow at 11:00 am [name] time for further investigating and troubleshooting.
+
+Greetings still we are facing some connectivity issues, can we connect tomorrow at 11:00 am [name] time for further investigating and troubleshooting.
+
+Greetings the connection issues is resolved now and we can see the [item] in btcs. But we are facing issue with the onus [item] which is rejected in [system] and in [system] showing as [system] pending, can you check what is the reason, I have attached images from [system] and [system]
+
+Greetings can you please update us in this?
+
+Greetings [system] status is [system] pending reply but our [system] is not getting any hit from [system], can you check and advise.
+
+Greetings as requested log uploaded, please check.
+
+Greetings can you please update us in this. Thanks
+
+Greetings please help us to check this asap.
+
+Greetings do we have any update on this issue please?
+
+Greetings we have a project release and we want to sort it out as soon as possible, can we connect today to check the issue.
+
+Greetings we can connect at 12:30 pm [name] time, if you are ok, let me know so I can send meeting invitation for all. Meeting invitation sent, please accept. [link]
+
+Greetings all logs are uploaded, please check.
+
+Greetings logs are collected, but I am unable to uploaded because it is big files, I will arrange a meeting on next monday to check the logs over the zoom call
+
+Dear [user] [user] all the teal will be available in the meeting today at 1:30 [name] time, can you please arrange to attend [link] thanks [user], issue resolved, you can close the ticket.",DMAIC,single annotator,1,Mendeley Help Desk Tickets,https://data.mendeley.com/datasets/btm76zndnt/3,"Abdellatif, Mohammad (2025), ""Help Desk Tickets"", Mendeley Data, v3, doi:10.17632/btm76zndnt.3; ticket 1007739",CC BY 4.0,verbatim
+dmaic_052,"Hello, I feel the need to reach for assistance from CFPB because there has been several unauthorized transactions in my personal Bank of America account. I filed a claim with back of America claim department back in [date in 2018], when I had first noticed the major decrease in my balance. The bank had temporary put back the $1000.00 that was removed from about more than 40 unauthorized transactions. The bank later reached out to me, stating that my money was going to be removed again due to lack of evidence that these transactions were fraud. So I then filed a police report for identity theft and contacted the company that these transactions were being charged with my personal bank card information, which was [redacted], food delivery app. [redacted] was able to locate more information of these transactions, like the phone number, address the food was delivered, and names. [redacted] would not release information to me ""due to safety"" as they stated, however they did mention [redacted] will cooperate with law-enforcement for further investigation. So as evidence I then sent back copies of the emails I had with [redacted] along with a copy of the police report to the Bank of America claim department. After this the bank continue to refused to replace the money which in the first place was unauthorized to be removed. I filed a complaint with [redacted] and as a result Bank of America replaced only [redacted] back into my account. Which I found very insulting that Bank of America considered that a fair and reasonable resolution to this matter would be replacing $110.00 out of the $1000.00 that were removed without my authorization. Bank of America refuses to take responsibility for the protection of my money that was lost. Unauthorized transactions began on [date in 2018] and continued through [redacted] till [date], which was when the last transaction was made before I canceled my bank card.",JUST_DO_IT,single annotator,1,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/3245702,"CFPB Consumer Complaint Database, complaint 3245702",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_054,"Whom to include in initial meeting to discuss process issues
+
+Quick background: I work on a team of two building estimators/draftsmen for a company that is relatively new to manufacturing Pre-Fab metal buildings. The company is still somewhat figuring out who they are and what their main focus will be. Pre-Fab metal buildings are just one of several avenues they're pursuing. Point being, none of us here, including management has any experience in the field of manufacturing or erecting buildings. 
+The issue we as building estimators (who also happen to be relatively new at our job) are running into is that when a request for quote comes in, the sales dept., instead of looking over the drawings/specs and forwarding us the pertinent info on our official RFQ form, will simply hit forward on the email they receive, often without so much as gazing over it, and expect us to dig through all of the drawings, specs, addendums, etc... to find what we need. 
+In turn, they expect a complete quote along with the drawings we make that they can again simply forward to the customer without haveing to involve themselves. I think this may be due to two things: 1) the obvious one, sales dept. is simply being lazy, and 2) often times they don't have the expertise to evaluate the request properly, and so by forwarding it to us, they hope to cover up their own shortcomings. 
+The second issue is that when we get a building that looks to be too complicated for our current level of skill/expertise, and we inform sales that this will not be a project we can take on, we are told to do it anyway. So we sit there and try to make sense of things on our own, having no resource to go to for help, and are expected to turn out quality buildings that will not only pass engineering but also fit together well in the field. 
+Both of us have voiced our frustration before, but the manager kinda laughs it off in the moment and proceeds to ask the following day how far we are on the project... 
+What I want to do now is schedule an official meeting with our immediate manager and hope that an actual meeting will have more impact than just mentioning things in passing. 
+The hierarchy is as follows: CEO, GM, Sales Manager, Estimators.
+My question is, do we include the GM in this meeting, or invite the sales mgr only and see how this goes before going further up the chain?
+Also, any other advice on what to say in the meeting would be appreciated. I have written down a few key points on what we need from sales dept. etc...",NOT_CPI,single annotator,1,Stack Exchange: workplace.stackexchange.com,https://workplace.stackexchange.com/questions/72649/whom-to-include-in-initial-meeting-to-discuss-process-issues,"Question 72649 on workplace.stackexchange.com, asked 2016-08-03, by David (https://workplace.stackexchange.com/users/54809/david)",CC BY-SA 3.0,verbatim
+dmaic_056,"Nursing home staff, lacking a replacement GJ tube, kept the stoma open with an improvised, loosely knotted Foley catheter; the catheter later became an obstructing foreign object inside the small intestine, while clinicians anchored on a retained tube fragment. The patient deteriorated despite treatment and died after comfort measures were chosen, and the root-cause analysis revealed the workaround was common practice in several settings.",KAIZEN_EVENT,adjudicated,9,AHRQ PSNet WebM&M,https://psnet.ahrq.gov/web-mm/primary-workaround-secondary-complication,"Team paraphrase of the AHRQ PSNet WebM&M case ""Primary Workaround, Secondary Complication"" (2018)",CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase
+dmaic_058,"On [date in 2020] I used my Chase Bank credit card to make an online purchase from [redacted] for $1400.00. A few days later, i noticed that the tracking number was marked delivered, but I never received my order. I first reached out to [redacted] to resolve the issue but was met with extreme resistance. I subsequently contacted Chase to dispute the transaction, only to be placed on a merry-go-round. Chase then contacted me and said that ""because there is a tracking number, we can not resolve the dispute in your favor."" I tried to explain that tracking numbers could not be used as proof of delivery without reasonable doubt, and that it was foolish of the merchant to not give strict delivery instructions to the courier based on the high value of the order.",NOT_CPI,adjudicated,9,CFPB Consumer Complaint Database,https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/3668503,"CFPB Consumer Complaint Database, complaint 3668503",Public domain (CC0 / U.S. Government work),verbatim
+dmaic_060,"Analyzing fall reports for a pediatric inpatient unit, a nurse manager found the unit's fall rate was above the national benchmark for falls with injury. Pediatric falls are hard to prevent because they often stem from normal childhood development, and adult-oriented fall precautions do not apply.",DMAIC,adjudicated,9,PA Patient Safety Authority: Lessons from Event Reports,https://patientsafety.pa.gov/EventReporting/Pages/Preventing-Pediatric-Falls-Story.aspx?ctg=Falls,Team paraphrase of a PA Patient Safety Authority event-report story,CC BY-SA 4.0 (team-written paraphrase; the source text is not included),paraphrase

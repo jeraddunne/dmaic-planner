@@ -1,0 +1,9 @@
+# Let git normalize line endings in text files.
+* text=auto
+
+# The dataset files are hashed in models/phase3/c2/model.json (training_data.sha256),
+# and their text has line breaks inside quoted fields: keep their bytes exactly.
+data/*.csv -text
+
+# Shell scripts run on Linux and in Cloud Shell.
+*.sh text eol=lf

@@ -1,0 +1,180 @@
+# Methodology routing rules: the Lean Six Sigma project-selection decision tree,
+# written as ordered rules over (a) structured intake answers and (b) text signals.
+#
+# How the engine uses this file:
+#   1. Every rule whose clauses ALL hold "fires" and casts a vote (its confidence)
+#      for its label. Votes per label become model features (rule_vote_<LABEL>).
+#   2. The rule-based decision is the highest-priority fired rule (lowest
+#      priority number). If nothing fires, the fallback rule applies.
+#   3. The trained logistic regression model sees the votes as features alongside
+#      the waste lexicon counts and TF-IDF, so it can learn when to trust a rule
+#      and when to override it.
+#
+# Intake fields (structured answers collected with the narrative):
+#   process_exists   yes | no | unsure
+#   cause_known      yes | no | unsure
+#   solution_known   yes | no | unsure
+#   data_available   yes | partial | no | unsure
+#   scope            single_step | single_process | cross_functional | enterprise | unsure
+#   problem_type     defects_variation | delay_flow | cost | safety | customer_requirement
+#                    | new_capability | resourcing_policy | unsure
+#   effort_estimate  hours | days | weeks | months | unsure
+#
+# Clause types:
+#   {field: <intake field>, in: [values]}      structured condition
+#   {text: <regex>}                              narrative condition (case-insensitive)
+#   {waste_any: [labels], min_score: n}          lexicon evidence condition
+version: 1
+labels:
+  JUST_DO_IT:   "Cause and fix are known, low risk, low effort. Assign an owner and a date; verify after."
+  KAIZEN_EVENT: "Focused 3 to 5 day team event on a contained process with flow or waste problems and a largely known cause."
+  DMAIC:        "Structured project on an existing process where the root cause is unknown and measurable data exists or can be gathered."
+  DMADV:        "Design or fundamental redesign of a process, product, or service that does not exist or cannot meet requirements."
+  NOT_CPI:      "Not a process-improvement project: resourcing, policy, or capital decision. Route to management and confirm no process problem underlies it."
+
+rules:
+  # ---- Route-out first: things that are not CPI projects ----
+  - id: M-001
+    label: NOT_CPI
+    priority: 10
+    confidence: 0.85
+    when:
+      - {field: problem_type, in: [resourcing_policy]}
+    rationale: "Intake classified the problem as a resourcing or policy decision."
+  - id: M-002
+    label: NOT_CPI
+    priority: 11
+    confidence: 0.60
+    when:
+      - {text: "\\b(need|needs|require|requires) (more|additional) (staff|people|headcount|personnel|budget|funding|fte)\\b"}
+      - {field: cause_known, in: ["yes", unsure]}
+    rationale: "Narrative requests resources rather than describing a process failure. Confirm whether a process problem is hiding underneath."
+  - id: M-003
+    label: NOT_CPI
+    priority: 12
+    confidence: 0.70
+    when:
+      - {text: "\\b(mandated by|required by) (law|statute|regulation|policy|congress|the secretary)\\b"}
+    rationale: "Externally mandated change; execute as a compliance task, not an improvement project."
+
+  # ---- Design path ----
+  - id: M-010
+    label: DMADV
+    priority: 20
+    confidence: 0.90
+    when:
+      - {field: process_exists, in: ["no"]}
+    rationale: "No existing process to improve; use a design methodology (DMADV / DFSS)."
+  - id: M-011
+    label: DMADV
+    priority: 21
+    confidence: 0.80
+    when:
+      - {field: problem_type, in: [new_capability]}
+    rationale: "A new capability is requested."
+  - id: M-012
+    label: DMADV
+    priority: 22
+    confidence: 0.65
+    when:
+      - {text: "\\b(does not|doesn't|do not|don't) (currently )?(exist|have a process)\\b|\\bno (formal|defined|existing) process\\b|\\bfrom scratch\\b|\\bdesign (a )?new\\b|\\bstand(ing)? up (a )?new\\b"}
+    rationale: "Narrative states there is no process today."
+  - id: M-013
+    label: DMADV
+    priority: 23
+    confidence: 0.60
+    when:
+      - {text: "\\b(fundamental(ly)?|complete(ly)?|total(ly)?) (redesign|rebuild|replace|overhaul)\\b|\\bcannot meet (the )?(new )?(requirement|standard|demand)s?\\b|\\bbeyond (what|the) (the )?current process\\b"}
+      - {field: process_exists, in: ["yes", unsure]}
+    rationale: "Existing process cannot meet requirements even if optimized; redesign rather than improve."
+
+  # ---- Quick-win path ----
+  - id: M-020
+    label: JUST_DO_IT
+    priority: 30
+    confidence: 0.90
+    when:
+      - {field: cause_known, in: ["yes"]}
+      - {field: solution_known, in: ["yes"]}
+      - {field: effort_estimate, in: [hours, days]}
+      - {field: scope, in: [single_step, single_process]}
+    rationale: "Cause and solution known, small scope, small effort: no analysis phase needed."
+  - id: M-021
+    label: JUST_DO_IT
+    priority: 31
+    confidence: 0.65
+    when:
+      - {text: "\\b(we|i) (already )?know (the|what the|exactly what the) (fix|cause|problem|solution) (is)?\\b|\\bsimple fix\\b|\\bjust need(s)? to\\b|\\bquick (fix|win)\\b|\\bobvious (fix|solution)\\b"}
+      - {field: scope, in: [single_step, single_process, unsure]}
+    rationale: "Narrative asserts a known fix on a small scope."
+
+  # ---- Kaizen / rapid improvement path ----
+  - id: M-030
+    label: KAIZEN_EVENT
+    priority: 40
+    confidence: 0.85
+    when:
+      - {field: cause_known, in: ["yes"]}
+      - {field: scope, in: [single_process, cross_functional]}
+      - {field: problem_type, in: [delay_flow, cost]}
+      - {field: effort_estimate, in: [days, weeks]}
+    rationale: "Known cause, contained scope, flow problem: a focused team event fits."
+  - id: M-031
+    label: KAIZEN_EVENT
+    priority: 41
+    confidence: 0.70
+    when:
+      - {waste_any: [WAITING, MOTION, TRANSPORTATION, EXTRA_PROCESSING, INVENTORY], min_score: 4}
+      - {field: cause_known, in: ["yes", unsure]}
+      - {field: problem_type, in: [delay_flow, cost, unsure]}
+    rationale: "Strong lexicon evidence of flow wastes with a cause that is at least partly understood."
+  - id: M-032
+    label: KAIZEN_EVENT
+    priority: 42
+    confidence: 0.60
+    when:
+      - {text: "\\bkaizen\\b|\\brapid improvement\\b|\\b(value stream|process) (map|mapping)\\b|\\b5s\\b|\\bspaghetti diagram\\b|\\bstandard work\\b"}
+    rationale: "Narrative already names Lean event tools."
+
+  # ---- DMAIC path ----
+  - id: M-040
+    label: DMAIC
+    priority: 50
+    confidence: 0.85
+    when:
+      - {field: process_exists, in: ["yes"]}
+      - {field: cause_known, in: ["no", unsure]}
+      - {field: data_available, in: ["yes", partial]}
+      - {field: problem_type, in: [defects_variation, cost, customer_requirement, delay_flow, safety]}
+    rationale: "Existing process, unknown cause, measurable: classic DMAIC."
+  - id: M-041
+    label: DMAIC
+    priority: 51
+    confidence: 0.70
+    when:
+      - {text: "\\bvariation\\b|\\binconsisten(t|cy)\\b|\\b(defect|error|failure|reject) rates?\\b|\\bcapability\\b|\\bsigma\\b|\\bcontrol chart\\b|\\bout of (spec|tolerance)\\b"}
+      - {field: cause_known, in: ["no", unsure]}
+    rationale: "Variation and defect-rate language with an unknown cause."
+  - id: M-042
+    label: DMAIC
+    priority: 52
+    confidence: 0.65
+    when:
+      - {text: "\\b(don't|do not|doesn't|does not|nobody|no one) (really )?(know|knows|understand|understands) (why|what is causing|the cause|where)\\b|\\broot cause (is )?unknown\\b|\\bunclear why\\b|\\bnot sure (why|what)\\b"}
+    rationale: "Narrative explicitly states the cause is unknown."
+  - id: M-043
+    label: DMAIC
+    priority: 53
+    confidence: 0.55
+    when:
+      - {waste_any: [DEFECTS], min_score: 4}
+      - {field: cause_known, in: ["no", unsure]}
+    rationale: "Heavy defect evidence with an unknown cause."
+
+  # ---- Fallback ----
+  - id: M-090
+    label: DMAIC
+    priority: 99
+    confidence: 0.35
+    when: []
+    rationale: "No rule fired with confidence; default to the most general structured methodology and flag for human review."

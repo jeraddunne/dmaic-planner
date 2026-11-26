@@ -1,0 +1,197 @@
+# Waste lexicon: the eight Lean wastes (DOWNTIME).
+# Each rule is one piece of evidence. The rules engine counts matches per waste
+# and exposes the counts as features (like x1/x2 in Jurafsky & Martin Ch. 4).
+#
+# Fields:
+#   id        stable identifier, never reuse after deletion
+#   label     one of the eight waste codes
+#   patterns  case-insensitive regular expressions matched against the narrative
+#   weight    evidence strength 1 (weak hint) to 3 (near-definitive)
+#   status    active | proposed | retired   (only active rules fire in production)
+#   source    where the rule came from: expert | model_mined | error_analysis
+#   note      why it exists, edge cases
+version: 1
+labels:
+  DEFECTS:             "Work that is wrong, incomplete, or must be redone"
+  OVERPRODUCTION:      "Making more, sooner, or faster than the next step needs"
+  WAITING:             "Idle time for people, work items, or equipment"
+  NON_UTILIZED_TALENT: "Skills, ideas, or authority of people not used"
+  TRANSPORTATION:      "Moving work items, materials, or information between locations or systems"
+  INVENTORY:           "Excess work in process, stock, backlog, or stored information"
+  MOTION:              "Unnecessary movement or searching by people"
+  EXTRA_PROCESSING:    "Steps, approvals, or data entry beyond what the customer requires"
+
+rules:
+  - id: W-DEF-001
+    label: DEFECTS
+    patterns: ["\\brework(ed|ing)?\\b", "\\bredo(ne|ing)?\\b", "\\bre-work\\b"]
+    weight: 3
+    status: active
+    source: expert
+    note: Rework is the canonical defect signal.
+  - id: W-DEF-002
+    label: DEFECTS
+    patterns: ["\\berrors?\\b", "\\bmistakes?\\b", "\\bincorrect\\b", "\\bwrong\\b", "\\binaccura(te|cy)\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-DEF-003
+    label: DEFECTS
+    patterns: ["\\bscrap(ped)?\\b", "\\breject(ed|ion|s)?\\b", "\\breturned\\b", "\\bkick(ed)? back\\b", "\\bsent back\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-DEF-004
+    label: DEFECTS
+    patterns: ["\\bmissing (information|data|fields?|signatures?|documents?)\\b", "\\bincomplete\\b", "\\bcorrections?\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-DEF-005
+    label: DEFECTS
+    patterns: ["\\bdefect(s|ive)?\\b", "\\bfailure rate\\b", "\\bnonconform(ing|ance)\\b", "\\bout of spec\\b"]
+    weight: 3
+    status: active
+    source: expert
+
+  - id: W-OVP-001
+    label: OVERPRODUCTION
+    patterns: ["\\bmore than (is )?needed\\b", "\\bahead of (demand|need|schedule)\\b", "\\bjust in case\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-OVP-002
+    label: OVERPRODUCTION
+    patterns: ["\\bprint(ed|s|ing)? (copies|extra|everything)\\b", "\\bgenerat(e|ed|ing) reports? (nobody|no one)\\b", "\\bunread reports?\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-OVP-003
+    label: OVERPRODUCTION
+    patterns: ["\\bin large batches\\b", "\\bbatch(es|ed|ing)? of\\b", "\\boverproduc(e|ed|tion)\\b"]
+    weight: 2
+    status: active
+    source: expert
+    note: Batching is also an INVENTORY hint; both may fire, which is correct.
+
+  - id: W-WAI-001
+    label: WAITING
+    patterns: ["\\bwait(s|ed|ing)?\\b", "\\bidle\\b", "\\bon hold\\b", "\\bstalled\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-WAI-002
+    label: WAITING
+    patterns: ["\\bqueue(s|d)?\\b", "\\bbacklog\\b", "\\bpending (approval|review|signature)\\b", "\\bawaiting\\b"]
+    weight: 2
+    status: active
+    source: expert
+    note: Backlog is also an INVENTORY signal (see W-INV-002).
+  - id: W-WAI-003
+    label: WAITING
+    patterns: ["\\bsits? (in|on|with)\\b", "\\bsat (in|on|with)\\b", "\\bbottleneck\\b", "\\bdelay(s|ed)?\\b", "\\bturnaround\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-WAI-004
+    label: WAITING
+    patterns: ["\\b(takes?|took) (\\d+|several|multiple|many) (days|weeks|months)\\b", "\\bcycle time\\b", "\\blead time\\b"]
+    weight: 1
+    status: active
+    source: expert
+    note: Long durations hint at waiting but could be extra processing; weight 1.
+
+  - id: W-NUT-001
+    label: NON_UTILIZED_TALENT
+    patterns: ["\\bnot (consulted|asked|involved|included)\\b", "\\bideas? (are |were )?ignored\\b", "\\bno one (asks|listens)\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-NUT-002
+    label: NON_UTILIZED_TALENT
+    patterns: ["\\bunderutiliz(ed|ation)\\b", "\\bunder-?used\\b", "\\bskills? (not|aren't|are not) (used|utilized)\\b", "\\bovertrained\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-NUT-003
+    label: NON_UTILIZED_TALENT
+    patterns: ["\\b(engineers?|analysts?|nurses?|specialists?) (spend|spends|spending) .{0,40}(data entry|clerical|copying|filing)\\b", "\\bno authority\\b", "\\bcan'?t make decisions\\b", "\\bmust escalate\\b"]
+    weight: 2
+    status: active
+    source: expert
+
+  - id: W-TRA-001
+    label: TRANSPORTATION
+    patterns: ["\\bhand-?offs?\\b", "\\bhanded off\\b", "\\btransfer(red|s)? between\\b", "\\bmoved? (from|between|to) (the )?(warehouse|building|floor|department|system)\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-TRA-002
+    label: TRANSPORTATION
+    patterns: ["\\bship(ped|ping)? (back|between|across)\\b", "\\bcourier\\b", "\\bemail(ed|s)? (back and forth|around)\\b", "\\bre-?enter(ed)? into (another|a second|the other) system\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-TRA-003
+    label: TRANSPORTATION
+    patterns: ["\\bforklift\\b", "\\bpallets? (moved|travel)\\b", "\\bmultiple (systems|locations|sites)\\b", "\\btravel(s|ed)? (\\d+|across)\\b"]
+    weight: 1
+    status: active
+    source: expert
+
+  - id: W-INV-001
+    label: INVENTORY
+    patterns: ["\\bexcess (stock|inventory|supplies|parts)\\b", "\\bstockpil(e|ed|ing)\\b", "\\boverstock(ed)?\\b", "\\bexpir(ed|ing) (stock|supplies|items)\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-INV-002
+    label: INVENTORY
+    patterns: ["\\bwork in (process|progress)\\b", "\\bWIP\\b", "\\bpil(es?|ing) up\\b", "\\bbacklog of \\d+\\b", "\\bunprocessed\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-INV-003
+    label: INVENTORY
+    patterns: ["\\bstorage (space|room|costs?)\\b", "\\bobsolete\\b", "\\bwarehouse (is )?full\\b"]
+    weight: 2
+    status: active
+    source: expert
+
+  - id: W-MOT-001
+    label: MOTION
+    patterns: ["\\bwalk(s|ed|ing)? (to|across|back|over)\\b", "\\bsearch(es|ed|ing)? for\\b", "\\blook(s|ed|ing)? for\\b", "\\bcan'?t find\\b", "\\bhunt(s|ed|ing)? (for|down)\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-MOT-002
+    label: MOTION
+    patterns: ["\\bclick(s|ing)? through\\b", "\\bmultiple screens\\b", "\\bswitch(es|ing)? between (screens|windows|applications|apps)\\b", "\\bscroll(s|ing)? through\\b"]
+    weight: 2
+    status: active
+    source: expert
+  - id: W-MOT-003
+    label: MOTION
+    patterns: ["\\breach(es|ing)? (for|over)\\b", "\\bbend(s|ing)? (down|over)\\b", "\\bergonomic\\b", "\\bclutter(ed)?\\b", "\\bdisorganiz(ed|ation)\\b"]
+    weight: 2
+    status: active
+    source: expert
+
+  - id: W-EXP-001
+    label: EXTRA_PROCESSING
+    patterns: ["\\bduplicate (entry|data entry|work|effort|forms?)\\b", "\\bre-?enter(ed|ing)?\\b", "\\btyp(e|ed|ing) (it|the same|data) (in )?(again|twice)\\b", "\\bmanual(ly)? (re-?key|copy|transcrib)\\w*\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-EXP-002
+    label: EXTRA_PROCESSING
+    patterns: ["\\b(\\d+|three|four|five|six|seven|multiple|several) (levels? of )?(approvals?|signatures?|reviews?|sign-?offs?)\\b", "\\bredundant\\b", "\\bunnecessary (steps?|reviews?|reports?)\\b"]
+    weight: 3
+    status: active
+    source: expert
+  - id: W-EXP-003
+    label: EXTRA_PROCESSING
+    patterns: ["\\bover-?process\\w*\\b", "\\bgold-?plat\\w*\\b", "\\bmore detail than\\b", "\\bnobody (uses|reads|needs)\\b", "\\bworkaround(s)?\\b"]
+    weight: 2
+    status: active
+    source: expert

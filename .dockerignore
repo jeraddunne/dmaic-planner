@@ -1,0 +1,14 @@
+# Allowlist: nothing goes into the image unless it is named here: the app, the
+# project code, the rule tables and the deployed model file. Tests, docs, data,
+# git metadata and any local virtual environment stay out.
+*
+!app/
+!src/
+!rules/
+!models/phase3/c2/model.json
+
+# ...and nothing inside those that the app does not run.
+app/tests/
+**/__pycache__/
+**/*.pyc
+**/*.pdf

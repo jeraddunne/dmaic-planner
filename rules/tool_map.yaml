@@ -1,0 +1,36 @@
+# Recommended tools, keyed by methodology phase and by waste type.
+# The charter generator merges the two: phase tools from the methodology,
+# plus waste-specific tools inserted into the phase where they are used.
+version: 1
+
+by_methodology:
+  DMAIC:
+    Define:  [Project charter, SIPOC, Voice of the customer / CTQ tree, Stakeholder analysis]
+    Measure: [Data collection plan, Operational definitions, Measurement system analysis, Process map, Baseline capability or sigma level]
+    Analyze: [Pareto chart, Fishbone (Ishikawa) diagram, 5 Whys, Hypothesis testing, Regression or correlation, Value-added analysis]
+    Improve: [Brainstorming and solution selection matrix, Pilot, FMEA, Mistake-proofing (poka-yoke)]
+    Control: [Control plan, SPC control charts, Standard work, Response plan, Handoff to process owner]
+  DMADV:
+    Define:  [Project charter, Business case, Stakeholder analysis]
+    Measure: [Voice of the customer, Quality function deployment (QFD), CTQ flow-down, Benchmarking]
+    Analyze: [Concept generation, Pugh matrix, Design scorecards, Risk assessment]
+    Design:  [Detailed design, Design FMEA, Simulation or prototype, Pilot]
+    Verify:  [Verification testing, Control plan, Transition to owner]
+  KAIZEN_EVENT:
+    Prepare: [Event charter, Scope and boundaries, Baseline metrics, Team selection]
+    Event:   [Current-state value stream map, Waste walk (gemba), Spaghetti diagram, Root cause (5 Whys), Future-state map, Rapid experiments]
+    Follow-up: [30-60-90 day action list, Standard work, Visual controls, Results review]
+  JUST_DO_IT:
+    Do:      [Action item with owner and due date, Before and after check, Standard work update if needed]
+  NOT_CPI:
+    Route:   [Management decision memo, Business case if funding is requested, Re-intake if a process problem is confirmed]
+
+by_waste:
+  DEFECTS:             [Pareto chart, Fishbone diagram, Mistake-proofing (poka-yoke), Control charts, Checklists]
+  OVERPRODUCTION:      [Takt time analysis, Pull system, Batch size reduction, Kanban]
+  WAITING:             [Value stream map, Queue and cycle time analysis, Cross-training, Level loading]
+  NON_UTILIZED_TALENT: [Skills matrix, Cross-training plan, Decision-rights review, Idea system]
+  TRANSPORTATION:      [Layout or cell design, Value stream map, System integration review]
+  INVENTORY:           [Kanban, WIP limits, Pull system, 5S for stock areas]
+  MOTION:              [Spaghetti diagram, 5S, Workstation layout, Screen and workflow redesign]
+  EXTRA_PROCESSING:    [Process map, Value-added analysis, Approval-level review, Standard work, Automation candidates]

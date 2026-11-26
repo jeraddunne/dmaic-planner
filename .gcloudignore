@@ -1,0 +1,21 @@
+# What `gcloud run deploy --source .` uploads to Cloud Build (gitignore syntax).
+# Allowlist: only the Dockerfile and the files the image copies. Tests, docs, data,
+# git metadata and any local virtual environment stay on your computer.
+/*
+!/Dockerfile
+!/.dockerignore
+!/app/
+!/src/
+!/rules/
+!/models/
+/models/*
+!/models/phase3/
+/models/phase3/*
+!/models/phase3/c2/
+/models/phase3/c2/*
+!/models/phase3/c2/model.json
+
+/app/tests/
+__pycache__/
+*.pyc
+*.pdf
